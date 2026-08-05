@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A static archive of YouTube comments and video metadata." />
+    <meta name="color-scheme" content="dark" />
+    <title>Comment archive</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Comment archive home">
+        <span>my head is empty</span>
+        <span class="brand-secondary">comment archive</span>
+      </a>
+      <p class="snapshot-label" id="snapshot-label">static snapshot</p>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <div class="loading-state">
+        <span class="loader" aria-hidden="true"></span>
+        <p>Opening the archive…</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>An independent preservation project. Not affiliated with YouTube.</p>
+      <p>Public information captured at the timestamp shown on each page.</p>
+    </footer>
+  </body>
+</html>

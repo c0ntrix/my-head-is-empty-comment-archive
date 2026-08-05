@@ -1,0 +1,18 @@
+{
+  "name": "youtube-comment-archiver",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Archive public YouTube comments and video metadata as a static site.",
+  "scripts": {
+    "setup:comments": "node scripts/setup-yt-dlp.mjs",
+    "import": "node scripts/import-list.mjs video-list.txt",
+    "archive": "node scripts/archive.mjs",
+    "build:index": "node scripts/build-pending-index.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
