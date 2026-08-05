@@ -2,12 +2,12 @@
   --background: #f5f5f2;
   --surface: #ffffff;
   --text: #171717;
-  --secondary: #686863;
-  --quiet: #92928c;
+  --secondary: #5f5f5a;
+  --quiet: #777772;
   --border: #d9d9d4;
   --border-dark: #b8b8b1;
   --accent: #315c42;
-  --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
@@ -57,14 +57,14 @@ footer {
   display: flex;
   gap: 12px;
   align-items: baseline;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 650;
   text-decoration: none;
 }
 
 .brand-secondary {
   color: var(--secondary);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ footer {
   margin: 0;
   color: var(--secondary);
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 main { min-height: 72vh; }
@@ -124,7 +124,7 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
   letter-spacing: -.03em;
 }
 
-.stat span { color: var(--secondary); font-size: 12px; }
+.stat span { color: var(--secondary); font-size: 13px; }
 
 .catalogue { padding: 72px 0 110px; }
 
@@ -146,7 +146,7 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
 
 .result-count {
   color: var(--secondary);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .controls {
@@ -176,6 +176,7 @@ select {
   outline: 0;
   background: var(--surface);
   color: var(--text);
+  font-size: 15px;
 }
 
 input { padding: 0 14px 0 40px; }
@@ -219,12 +220,12 @@ a:focus-visible {
 .duration,
 .status-pill {
   position: absolute;
-  padding: 3px 6px;
+  padding: 4px 7px;
   border-radius: 3px;
   background: rgba(20, 20, 19, .84);
   color: white;
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .duration { right: 8px; bottom: 8px; }
@@ -235,7 +236,7 @@ a:focus-visible {
 
 .card-copy h3 {
   margin: 0 0 7px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 590;
   line-height: 1.4;
 }
@@ -246,7 +247,7 @@ a:focus-visible {
   flex-wrap: wrap;
   gap: 5px 14px;
   color: var(--secondary);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .card-meta span + span::before,
@@ -283,7 +284,7 @@ a:focus-visible {
   display: inline-block;
   margin-bottom: 30px;
   color: var(--secondary);
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -311,7 +312,7 @@ a:focus-visible {
   line-height: 1.08;
 }
 
-.channel { margin: 0 0 26px; color: var(--secondary); font-size: 14px; }
+.channel { margin: 0 0 26px; color: var(--secondary); font-size: 15px; }
 
 .detail-copy .metric-row {
   padding: 16px 0;
@@ -325,7 +326,8 @@ a:focus-visible {
   overflow: hidden;
   margin: 22px 0 8px;
   color: var(--secondary);
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 1.6;
   white-space: pre-wrap;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
@@ -339,7 +341,7 @@ a:focus-visible {
   background: transparent;
   color: var(--accent);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .original-link {
@@ -347,7 +349,7 @@ a:focus-visible {
   margin-top: 24px;
   padding-bottom: 2px;
   border-bottom: 1px solid var(--border-dark);
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -363,7 +365,7 @@ a:focus-visible {
   margin-bottom: 22px;
 }
 
-.comments-heading span { color: var(--secondary); font-size: 12px; }
+.comments-heading span { color: var(--secondary); font-size: 13px; }
 .comment-list { border-top: 1px solid var(--border); }
 
 .comment {
@@ -397,7 +399,7 @@ a:focus-visible {
   margin-bottom: 7px;
 }
 
-.author { font-size: 13px; font-weight: 620; text-decoration: none; }
+.author { font-size: 14px; font-weight: 620; text-decoration: none; }
 a.author:hover { text-decoration: underline; }
 
 .comment-badge {
@@ -405,20 +407,21 @@ a.author:hover { text-decoration: underline; }
   border: 1px solid var(--border-dark);
   border-radius: 3px;
   color: var(--secondary);
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .comment-date,
 .edited {
   color: var(--quiet);
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .comment-text {
   margin: 0;
   color: #30302d;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.65;
   white-space: pre-wrap;
 }
 
@@ -426,7 +429,7 @@ a.author:hover { text-decoration: underline; }
   display: inline-block;
   margin-top: 9px;
   color: var(--secondary);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .replies {
@@ -445,7 +448,7 @@ a.author:hover { text-decoration: underline; }
   background: transparent;
   color: var(--accent);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 560;
 }
 
@@ -459,7 +462,7 @@ a.author:hover { text-decoration: underline; }
   background: var(--surface);
   color: var(--secondary);
   cursor: pointer;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .more-replies:hover {
@@ -484,7 +487,7 @@ a.author:hover { text-decoration: underline; }
   border-radius: 4px;
   background: var(--surface);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .load-more:hover { border-color: var(--border-dark); }
@@ -505,7 +508,7 @@ footer {
   padding: 28px 0 40px;
   border-top: 1px solid var(--border);
   color: var(--quiet);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 @media (max-width: 900px) {
