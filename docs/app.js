@@ -45,7 +45,7 @@ function renderIndex() {
       </div>
       <div class="controls">
         <label class="search-wrap"><span class="visually-hidden">Search videos</span><input id="video-search" type="search" placeholder="Search titles or channel…" autocomplete="off"></label>
-        <label><span class="visually-hidden">Sort videos</span><select id="video-sort"><option value="source">Original order</option><option value="title">Title A–Z</option><option value="views">Most viewed</option><option value="comments">Most comments</option><option value="newest">Newest video</option></select></label>
+        <label><span class="visually-hidden">Sort videos</span><select id="video-sort"><option value="source">Original order</option><option value="title">Title A–Z</option><option value="views" selected>Most viewed</option><option value="comments">Most comments</option><option value="newest">Newest video</option></select></label>
       </div>
       <div class="video-grid" id="video-grid"></div>
     </section>`;
