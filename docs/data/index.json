@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T12:20:32.141Z",
-  "lastArchivedAt": "2026-08-05T12:20:31.978Z",
+  "generatedAt": "2026-08-05T13:16:07.994Z",
+  "lastArchivedAt": "2026-08-05T13:16:07.759Z",
   "totals": {
     "videos": 121,
     "archived": 121,
-    "comments": 8983
+    "comments": 29121
   },
   "videos": [
     {
@@ -39,17 +39,17 @@
       "duration": "PT1M43S",
       "thumbnail": "assets/thumbnails/HndF_Abg0sI.jpg",
       "statistics": {
-        "viewCount": 16453151,
-        "likeCount": 347271,
+        "viewCount": 16453336,
+        "likeCount": 347275,
         "commentCount": 11633,
         "favoriteCount": 0
       },
-      "archivedComments": 0,
-      "archivedTopLevelComments": 0,
-      "archivedReplies": 0,
-      "archiveStatus": "partial",
-      "commentsStatus": "disabled",
-      "archivedAt": "2026-08-05T11:34:14.014Z",
+      "archivedComments": 11326,
+      "archivedTopLevelComments": 8119,
+      "archivedReplies": 3207,
+      "archiveStatus": "complete",
+      "commentsStatus": "complete",
+      "archivedAt": "2026-08-05T12:57:51.033Z",
       "originalUrl": "https://www.youtube.com/watch?v=HndF_Abg0sI"
     },
     {
@@ -66,12 +66,12 @@
         "commentCount": 356,
         "favoriteCount": 0
       },
-      "archivedComments": 0,
-      "archivedTopLevelComments": 0,
-      "archivedReplies": 0,
-      "archiveStatus": "partial",
-      "commentsStatus": "disabled",
-      "archivedAt": "2026-08-05T11:34:14.285Z",
+      "archivedComments": 352,
+      "archivedTopLevelComments": 254,
+      "archivedReplies": 98,
+      "archiveStatus": "complete",
+      "commentsStatus": "complete",
+      "archivedAt": "2026-08-05T12:58:51.139Z",
       "originalUrl": "https://www.youtube.com/watch?v=y49nkooAmCA"
     },
     {
@@ -83,17 +83,17 @@
       "duration": "PT2M31S",
       "thumbnail": "assets/thumbnails/rpG6Iz0w4Z0.jpg",
       "statistics": {
-        "viewCount": 18293733,
-        "likeCount": 293310,
+        "viewCount": 18294071,
+        "likeCount": 293313,
         "commentCount": 8687,
         "favoriteCount": 0
       },
-      "archivedComments": 0,
-      "archivedTopLevelComments": 0,
-      "archivedReplies": 0,
-      "archiveStatus": "partial",
-      "commentsStatus": "disabled",
-      "archivedAt": "2026-08-05T11:34:14.501Z",
+      "archivedComments": 8460,
+      "archivedTopLevelComments": 5480,
+      "archivedReplies": 2980,
+      "archiveStatus": "complete",
+      "commentsStatus": "complete",
+      "archivedAt": "2026-08-05T13:16:07.759Z",
       "originalUrl": "https://www.youtube.com/watch?v=rpG6Iz0w4Z0"
     },
     {
