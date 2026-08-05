@@ -117,7 +117,7 @@ async function renderVideo(id) {
         </section>
         <section class="comments-section">
           <div class="comments-heading"><h2>Comments</h2><span>${formatFull(totalComments)} preserved</span></div>
-          ${summary.archiveStatus === "partial" ? `<p class="notice">This is a partial capture${archivePercentage ? ` (${archivePercentage} archived)` : ""}. ${formatFull(totalComments)} comments and replies are safely archived so far; YouTube reports approximately ${formatFull(video.statistics.commentCount)} on the original video. Running the collector again may recover more without removing these.</p>` : ""}
+          ${summary.archiveStatus === "partial" ? `<p class="notice">${archivePercentage ? `${archivePercentage} of YouTube's reported comments are archived. ` : ""}${formatFull(totalComments)} comments and replies are safely preserved; YouTube reports approximately ${formatFull(video.statistics.commentCount)} on the original video. Running the collector again may recover more without removing these.</p>` : ""}
           <div class="controls comment-controls">
             <label class="search-wrap"><span class="visually-hidden">Search comments</span><input id="comment-search" type="search" placeholder="Search comments or authors…" autocomplete="off"></label>
             <label><span class="visually-hidden">Sort comments</span><select id="comment-sort"><option value="likes">Most liked</option><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="archive">Original order</option></select></label>
@@ -242,7 +242,7 @@ function videoCard(video) {
     video.statistics?.commentCount,
   );
   const statusLabel = status === "partial" && archivePercentage
-    ? `partial · ${archivePercentage}`
+    ? `${archivePercentage} archived`
     : status;
   card.innerHTML = `
     <a class="card-link" href="?v=${encodeURIComponent(video.id)}">
@@ -345,9 +345,18 @@ function escapeAttribute(value) {
 }
 
 async function fetchJson(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) throw new Error(`HTTP ${response.status} while loading ${url}`);
-  return response.json();
+  let lastError;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      const response = await fetch(url, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status} while loading ${url}`);
+      return JSON.parse(await response.text());
+    } catch (error) {
+      lastError = error;
+      if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 150));
+    }
+  }
+  throw lastError;
 }
 
 function renderError(message, error) {
