@@ -106,7 +106,7 @@ for (const source of sources) {
   if (
     commentResult.source === "youtube-web-via-yt-dlp" &&
     reportedCommentCount > 0 &&
-    countComments(comments) < reportedCommentCount * 0.95
+    countComments(comments) < reportedCommentCount
   ) {
     commentsStatus = "partial";
     console.warn(

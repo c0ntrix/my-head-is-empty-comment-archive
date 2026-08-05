@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T13:49:22.954Z",
-  "lastArchivedAt": "2026-08-05T13:49:22.440Z",
+  "generatedAt": "2026-08-05T21:34:26.605Z",
+  "lastArchivedAt": "2026-08-05T21:34:25.897Z",
   "totals": {
     "videos": 121,
     "archived": 121,
-    "comments": 34793
+    "comments": 34799
   },
   "videos": [
     {
@@ -17,17 +17,17 @@
       "duration": "PT1M39S",
       "thumbnail": "assets/thumbnails/bFNq9iS4Xn4.jpg",
       "statistics": {
-        "viewCount": 14348314,
-        "likeCount": 304121,
-        "commentCount": 9115,
+        "viewCount": 14354296,
+        "likeCount": 304244,
+        "commentCount": 9114,
         "favoriteCount": 0
       },
-      "archivedComments": 8983,
-      "archivedTopLevelComments": 6793,
+      "archivedComments": 8989,
+      "archivedTopLevelComments": 6799,
       "archivedReplies": 2190,
-      "archiveStatus": "complete",
-      "commentsStatus": "complete",
-      "archivedAt": "2026-08-05T12:20:31.978Z",
+      "archiveStatus": "partial",
+      "commentsStatus": "partial",
+      "archivedAt": "2026-08-05T21:34:25.897Z",
       "originalUrl": "https://www.youtube.com/watch?v=bFNq9iS4Xn4"
     },
     {
@@ -47,7 +47,7 @@
       "archivedComments": 11326,
       "archivedTopLevelComments": 8119,
       "archivedReplies": 3207,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T12:57:51.033Z",
       "originalUrl": "https://www.youtube.com/watch?v=HndF_Abg0sI"
@@ -69,7 +69,7 @@
       "archivedComments": 352,
       "archivedTopLevelComments": 254,
       "archivedReplies": 98,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T12:58:51.139Z",
       "originalUrl": "https://www.youtube.com/watch?v=y49nkooAmCA"
@@ -91,7 +91,7 @@
       "archivedComments": 8460,
       "archivedTopLevelComments": 5480,
       "archivedReplies": 2980,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:16:07.759Z",
       "originalUrl": "https://www.youtube.com/watch?v=rpG6Iz0w4Z0"
@@ -113,7 +113,7 @@
       "archivedComments": 1004,
       "archivedTopLevelComments": 680,
       "archivedReplies": 324,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:18:49.032Z",
       "originalUrl": "https://www.youtube.com/watch?v=cYku1kDHucA"
@@ -135,7 +135,7 @@
       "archivedComments": 520,
       "archivedTopLevelComments": 332,
       "archivedReplies": 188,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:20:41.372Z",
       "originalUrl": "https://www.youtube.com/watch?v=sQUQY0U5ckE"
@@ -157,7 +157,7 @@
       "archivedComments": 125,
       "archivedTopLevelComments": 69,
       "archivedReplies": 56,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:21:13.425Z",
       "originalUrl": "https://www.youtube.com/watch?v=p_3FDVAwwvY"
@@ -179,7 +179,7 @@
       "archivedComments": 989,
       "archivedTopLevelComments": 657,
       "archivedReplies": 332,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:23:59.249Z",
       "originalUrl": "https://www.youtube.com/watch?v=ApHvn3a7sss"
@@ -201,7 +201,7 @@
       "archivedComments": 372,
       "archivedTopLevelComments": 267,
       "archivedReplies": 105,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:25:01.542Z",
       "originalUrl": "https://www.youtube.com/watch?v=k1oFLm902wM"
@@ -245,7 +245,7 @@
       "archivedComments": 117,
       "archivedTopLevelComments": 89,
       "archivedReplies": 28,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:25:43.814Z",
       "originalUrl": "https://www.youtube.com/watch?v=l6zgXsj4KpA"
@@ -289,7 +289,7 @@
       "archivedComments": 259,
       "archivedTopLevelComments": 200,
       "archivedReplies": 59,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:26:44.596Z",
       "originalUrl": "https://www.youtube.com/watch?v=9Fm8c9eINjU"
@@ -333,7 +333,7 @@
       "archivedComments": 94,
       "archivedTopLevelComments": 70,
       "archivedReplies": 24,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:27:26.691Z",
       "originalUrl": "https://www.youtube.com/watch?v=7bL-oXQCmkI"
@@ -355,7 +355,7 @@
       "archivedComments": 251,
       "archivedTopLevelComments": 162,
       "archivedReplies": 89,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:28:16.721Z",
       "originalUrl": "https://www.youtube.com/watch?v=Ax1O8WAZZ7o"
@@ -1301,7 +1301,7 @@
       "archivedComments": 21,
       "archivedTopLevelComments": 8,
       "archivedReplies": 13,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:36:33.009Z",
       "originalUrl": "https://www.youtube.com/watch?v=4RgUGAEag_A"
@@ -1741,7 +1741,7 @@
       "archivedComments": 159,
       "archivedTopLevelComments": 104,
       "archivedReplies": 55,
-      "archiveStatus": "complete",
+      "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:40:53.178Z",
       "originalUrl": "https://www.youtube.com/watch?v=kQTrnpF-RO0"

@@ -244,7 +244,7 @@ function videoCard(video) {
       </div>
       <div class="card-copy">
         <h3>${escapeHtml(video.title)}</h3>
-        <div class="card-meta"><span>${formatCompact(video.statistics?.viewCount)} views</span><span>${formatCompact(video.statistics?.likeCount)} likes</span><span>${formatCompact(video.archivedComments)} comments</span></div>
+        <div class="card-meta"><span>${formatCompact(video.statistics?.viewCount)} views</span><span>${formatCompact(video.statistics?.likeCount)} likes</span><span>${formatFull(video.archivedComments)} comments</span></div>
       </div>
     </a>`;
   card.querySelector("a").addEventListener("click", navigate);

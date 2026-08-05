@@ -66,12 +66,12 @@ export function publicVideoSummary(video) {
   );
   const reportedComments = Number(video.statistics?.commentCount ?? 0);
   const apiContradictsCount = video.commentsStatus === "disabled" && reportedComments > 0;
-  const webCaptureLooksPartial =
+  const webCaptureIsShort =
     video.commentsSource === "youtube-web-via-yt-dlp" &&
     reportedComments > 0 &&
-    topLevel + replies < reportedComments * 0.95;
+    topLevel + replies < reportedComments;
   const commentsArePartial =
-    apiContradictsCount || webCaptureLooksPartial || video.commentsStatus === "partial";
+    apiContradictsCount || webCaptureIsShort || video.commentsStatus === "partial";
   return {
     id: video.id,
     sourceTitle: video.sourceTitle ?? null,

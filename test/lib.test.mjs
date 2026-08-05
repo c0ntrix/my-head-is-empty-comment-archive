@@ -44,3 +44,16 @@ test("marks materially incomplete web captures as partial", () => {
   });
   assert.equal(result.archiveStatus, "partial");
 });
+
+test("marks even a small web capture shortfall as partial", () => {
+  const result = publicVideoSummary({
+    id: "bFNq9iS4Xn4",
+    archiveStatus: "complete",
+    commentsStatus: "complete",
+    commentsSource: "youtube-web-via-yt-dlp",
+    statistics: { commentCount: 9115 },
+    comments: Array.from({ length: 8983 }, () => ({ replies: [] })),
+  });
+  assert.equal(result.archivedComments, 8983);
+  assert.equal(result.archiveStatus, "partial");
+});
