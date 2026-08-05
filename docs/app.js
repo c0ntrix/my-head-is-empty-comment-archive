@@ -128,7 +128,7 @@ async function renderVideo(id) {
         </section>
         <section class="comments-section">
           <div class="comments-heading"><h2>Comments</h2><span>${formatFull(totalComments)} preserved${archivePercentage ? ` · ${archivePercentage} archived` : ""}</span></div>
-          ${summary.archiveStatus === "partial" ? `<p class="notice">${archivePercentage ? `${archivePercentage} of YouTube's reported comments are archived. ` : ""}${formatFull(totalComments)} comments and replies are safely preserved; YouTube reports approximately ${formatFull(video.statistics.commentCount)} on the original video. Running the collector again may recover more without removing these.</p>` : ""}
+          ${summary.archiveStatus === "partial" ? `<p class="notice">This archive contains ${formatFull(totalComments)} comments and replies. ${archivePercentage ? `That is ${archivePercentage} of YouTube's reported total of about ${formatFull(video.statistics.commentCount)}. ` : ""}The difference can happen when new comments are added or when YouTube does not return every comment during archiving.</p>` : ""}
           <div class="controls comment-controls">
             <label class="search-wrap"><span class="visually-hidden">Search comments</span><input id="comment-search" type="search" placeholder="Search comments or authors…" autocomplete="off"></label>
             <label><span class="visually-hidden">Sort comments</span><select id="comment-sort"><option value="likes">Most liked</option><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="archive">Original order</option></select></label>
