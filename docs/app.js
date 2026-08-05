@@ -329,7 +329,7 @@ function escapeAttribute(value) {
 }
 
 async function fetchJson(url) {
-  const response = await fetch(url);
+  const response = await fetch(url, { cache: "no-store" });
   if (!response.ok) throw new Error(`HTTP ${response.status} while loading ${url}`);
   return response.json();
 }

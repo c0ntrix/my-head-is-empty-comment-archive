@@ -59,8 +59,64 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:22.080Z",
-  "archivedAt": "2026-08-05T11:34:22.080Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:31:20.712Z",
+  "comments": [
+    {
+      "id": "Ugwh7OUWfmi2kRE_QAR4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@heimar7",
+        "channelUrl": "https://www.youtube.com/@heimar7",
+        "channelId": "UCrT9hW_1djUkt02zbxOOItA",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n676Yw1o817uCML7OjRNXbIm2_td2Q5E1lES0wxUIYEvM=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Suspiro y Retrospección",
+      "likeCount": 0,
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 month ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgybJ8ZNt0b32_xxpe14AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Nyxsos",
+        "channelUrl": "https://www.youtube.com/@Nyxsos",
+        "channelId": "UCFa7BmqxeIhNwcpHHEup6CA",
+        "profileImageUrl": "https://yt3.ggpht.com/3MDARN84TZ9_0fhelB7ypimCUfnQEEyR_SUi8VWZfHIUyld4zpTv70nviFFX014ndIYGsyY92w=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Ty",
+      "likeCount": 0,
+      "publishedAt": "2025-12-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "8 months ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

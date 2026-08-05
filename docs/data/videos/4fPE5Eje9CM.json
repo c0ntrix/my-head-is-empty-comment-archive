@@ -53,14 +53,97 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 780,
+    "viewCount": 781,
     "likeCount": 12,
     "commentCount": 3,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:43.920Z",
-  "archivedAt": "2026-08-05T11:34:43.920Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:48:17.372Z",
+  "comments": [
+    {
+      "id": "UgwIjBli58xzEdGvr0V4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@mirandarain",
+        "channelUrl": "https://www.youtube.com/@mirandarain",
+        "channelId": "UCg-QpX5eqjGLKi3QN1cjJJg",
+        "profileImageUrl": "https://yt3.ggpht.com/OL7Vtx3np01sysWi_6sFf8snwgF-0f2kLWjWt5Jglz-MGo6THwG9nf5QHOzDZDxdSkOlXKRepTU=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "melancholy and bliss",
+      "likeCount": 4,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyJvsNjR7H8gi1sUL14AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@ItzSebas-",
+        "channelUrl": "https://www.youtube.com/@ItzSebas-",
+        "channelId": "UCEEyCqRiQbXQp_TG7V4eHlg",
+        "profileImageUrl": "https://yt3.ggpht.com/WGukZMBtURozeGUwFx5g7dSjjZXuRfuuIaeGbawvO1oYU_LAYKFekgK3pgmbDOOvhaQc4chHq5Q=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "i’m thinking about\nleaving\nand how i should say goodbye",
+      "likeCount": 2,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyM6Lnol-2RbAd9dxF4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Jas-iWISHiWAS",
+        "channelUrl": "https://www.youtube.com/@Jas-iWISHiWAS",
+        "channelId": "UCx5XjVS-dmjoewTOOfW-uqw",
+        "profileImageUrl": "https://yt3.ggpht.com/oYQgB3XnTPVuYAARODnicqjv94Re3q3X-C58RtjXTDYKp9a5ZzN3jDy_808nOIjzX9WJ0HQA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Great",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

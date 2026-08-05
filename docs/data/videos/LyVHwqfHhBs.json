@@ -53,14 +53,121 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 10495,
+    "viewCount": 10496,
     "likeCount": 133,
     "commentCount": 4,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:39.643Z",
-  "archivedAt": "2026-08-05T11:34:39.643Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:45:07.725Z",
+  "comments": [
+    {
+      "id": "Ugx3JXHT6aqaPF_BFH14AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@gbsbeats2021",
+        "channelUrl": "https://www.youtube.com/@gbsbeats2021",
+        "channelId": "UCX9ic0mud7j3B9BaG7FmOKw",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nUkUZOCrx-J_xKjo9QIfPPfRo9vLv3XFmjnaM00urixuk=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "This song speacks to me it kept me alive 🖤 thank you for creating this masterpiece and enjoying life while you have the time 💫",
+      "likeCount": 7,
+      "publishedAt": "2023-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "3 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "Ugx3JXHT6aqaPF_BFH14AaABAg.9qF613RUwcj9qX-WU_DVxy",
+          "parentId": "Ugx3JXHT6aqaPF_BFH14AaABAg",
+          "author": {
+            "name": "@mirandarain",
+            "channelUrl": "https://www.youtube.com/@mirandarain",
+            "channelId": "UCg-QpX5eqjGLKi3QN1cjJJg",
+            "profileImageUrl": "https://yt3.ggpht.com/OL7Vtx3np01sysWi_6sFf8snwgF-0f2kLWjWt5Jglz-MGo6THwG9nf5QHOzDZDxdSkOlXKRepTU=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "thank you so much for being here. i know that no words can ease or undo any pain you’re in, but i hope you continue to find peace and hope through our music. you deserve it🤍 love from us both.",
+          "likeCount": 5,
+          "publishedAt": "2023-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "3 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "UgyNceX8wqkT0av5d_94AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@StefanieB119",
+        "channelUrl": "https://www.youtube.com/@StefanieB119",
+        "channelId": "UCxey63UF9SEQwCChDpx6AUg",
+        "profileImageUrl": "https://yt3.ggpht.com/9EJBDQ31ONq5gjodgAHxxVCjMUPxLDb1l-9zNYaIDAhlE0DHV2FXbTd6jOp9Rn2CaqPsJdKV=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "this is god-tier",
+      "likeCount": 2,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgycWiZg_hx_d9bVwO94AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@rems7474",
+        "channelUrl": "https://www.youtube.com/@rems7474",
+        "channelId": "UCPDP8PqBrKC_8Ti18vk7VpQ",
+        "profileImageUrl": "https://yt3.ggpht.com/FtAtnplSNUDy7m2fdixQtp-U2gSRNWdLlGX0cghiJfPCwTtARBugXokXydzgKCua6ES31IpgJw=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Don't care if it hurts, can't cry anyways. Autism and catatonia is happiness. As long there is death, there's hope.",
+      "likeCount": 0,
+      "publishedAt": "2026-02-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "6 months ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 3,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

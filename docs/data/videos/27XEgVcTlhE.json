@@ -58,8 +58,115 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:43.284Z",
-  "archivedAt": "2026-08-05T11:34:43.284Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:47:58.506Z",
+  "comments": [
+    {
+      "id": "UgwsyU0sav7S7QGs2xJ4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@starstraike",
+        "channelUrl": "https://www.youtube.com/@starstraike",
+        "channelId": "UCdF39kD4FTrsapBxWK8tfsQ",
+        "profileImageUrl": "https://yt3.ggpht.com/qjmKFEC8Yk3jzcRuIuM6egG4ABkDQqqo-xdaN0Fuo0U-P_O0tpm5Zg-75lsS-0hNU2O3Ha6pvA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "these songs are the only things that keep me going",
+      "likeCount": 3,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "UgwsyU0sav7S7QGs2xJ4AaABAg.ACes8U2YvpSAEapAxJ7sJW",
+          "parentId": "UgwsyU0sav7S7QGs2xJ4AaABAg",
+          "author": {
+            "name": "@ItzSebas-",
+            "channelUrl": "https://www.youtube.com/@ItzSebas-",
+            "channelId": "UCEEyCqRiQbXQp_TG7V4eHlg",
+            "profileImageUrl": "https://yt3.ggpht.com/WGukZMBtURozeGUwFx5g7dSjjZXuRfuuIaeGbawvO1oYU_LAYKFekgK3pgmbDOOvhaQc4chHq5Q=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "same",
+          "likeCount": 2,
+          "publishedAt": "2025-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "1 year ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "UgxunVwBBMY6VUzFceJ4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Ellietheratwitch",
+        "channelUrl": "https://www.youtube.com/@Ellietheratwitch",
+        "channelId": "UCx01a0Pe_5tfu49lgQKc0SQ",
+        "profileImageUrl": "https://yt3.ggpht.com/P2p0hbU0a9oE9mEl3Nsg2nJYQyzot7wiwMy4jx-0olHk5ygMeDiloaR8MT3SMJiiWycNi9SHcg=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Thank you for letting me feel like I can be okay.",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwKHDE0ulRvKlskP2F4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@ItzSebas-",
+        "channelUrl": "https://www.youtube.com/@ItzSebas-",
+        "channelId": "UCEEyCqRiQbXQp_TG7V4eHlg",
+        "profileImageUrl": "https://yt3.ggpht.com/WGukZMBtURozeGUwFx5g7dSjjZXuRfuuIaeGbawvO1oYU_LAYKFekgK3pgmbDOOvhaQc4chHq5Q=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "thinking of\na reason i\nthat i shouldn't risk it all\nno safety net\nto protect you from\nthe fall the backlash\nthe repercussion of falling In love\nare you ready for\nthe heartache and more\ndisapointment and pain\nwho you thought that i am\ndon't know if i can\nit's hard for me to\nbe who you want me to be\ni write music all day\nin my room i will stay\nmy heart is your clay\nplease make me okay",
+      "likeCount": 4,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 3,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

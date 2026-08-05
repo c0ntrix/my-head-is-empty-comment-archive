@@ -59,8 +59,157 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:24.182Z",
-  "archivedAt": "2026-08-05T11:34:24.182Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:33:08.465Z",
+  "comments": [
+    {
+      "id": "UgylTNLa39lyWMApv7R4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@mirandarain",
+        "channelUrl": "https://www.youtube.com/@mirandarain",
+        "channelId": "UCg-QpX5eqjGLKi3QN1cjJJg",
+        "profileImageUrl": "https://yt3.ggpht.com/OL7Vtx3np01sysWi_6sFf8snwgF-0f2kLWjWt5Jglz-MGo6THwG9nf5QHOzDZDxdSkOlXKRepTU=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "🩵🤍🩵",
+      "likeCount": 3,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugzo182WuVvr3FSImgN4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@myheadisempty",
+        "channelUrl": "https://www.youtube.com/@myheadisempty",
+        "channelId": "UCADJhczGwtPelGm0EqVi3Mg",
+        "profileImageUrl": "https://yt3.ggpht.com/r_M1Na4RYIIeJx1VjYaPt1Fv5gVqm4ZFfF8wFQ-gD43dA1AA_pCWaUEEXbxqDCsQ3EYovNFD=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "hi friends, i have 800+ songs for those asking for more songs like this 🤍🤍🤍\nmy head is an ambient playlist _ https://open.spotify.com/playlist/4IB4U1ieSUcEor3LQkOAIy\nsoundcloud version : https://soundcloud.com/tidecruz/sets/my-head-is-ambient\ninsta: https://www.instagram.com/myhead_isempty/\ntiktok: https://www.tiktok.com/@myhead_isempty\nbandcamp(full album downloads): https://tidecruz.bandcamp.com/\n\nthanks for listening <3",
+      "likeCount": 8,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 4,
+      "replies": [
+        {
+          "id": "Ugzo182WuVvr3FSImgN4AaABAg.A1YNxqS8TRsA1ZDHa-nu00",
+          "parentId": "Ugzo182WuVvr3FSImgN4AaABAg",
+          "author": {
+            "name": "@andybabz",
+            "channelUrl": "https://www.youtube.com/@andybabz",
+            "channelId": "UC8CV5woNxIxPWWeAA-xPidw",
+            "profileImageUrl": "https://yt3.ggpht.com/FdEuh5ntkKq2D_gSEl_QEwNojBNorrUdPx5Eb9pK2wDcrA5qtDqdI8KQeg3LDot47OZJ18xi=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "YTmusic playlist for us nerds pls",
+          "likeCount": 4,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        },
+        {
+          "id": "Ugzo182WuVvr3FSImgN4AaABAg.A1YNxqS8TRsA1iWoD7I7n2",
+          "parentId": "Ugzo182WuVvr3FSImgN4AaABAg",
+          "author": {
+            "name": "@mw3killer10001",
+            "channelUrl": "https://www.youtube.com/@mw3killer10001",
+            "channelId": "UC-naD232R-S8ZZ1XjlRG8Ug",
+            "profileImageUrl": "https://yt3.ggpht.com/9IlW2rxynr4QAyOL-uu8R_i1i7sJYoxQaeG2EBvrFeZN5Qsy6XfDxra7BskeTffJOyvqJTeKQw=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "I pay for YouTube music tho 😭",
+          "likeCount": 3,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 1
+        },
+        {
+          "id": "Ugzo182WuVvr3FSImgN4AaABAg.A1YNxqS8TRsA1s8Fo-ZYwV",
+          "parentId": "Ugzo182WuVvr3FSImgN4AaABAg",
+          "author": {
+            "name": "@Jchannelqpo0",
+            "channelUrl": "https://www.youtube.com/@Jchannelqpo0",
+            "channelId": "UCL8akMi8dl2Z6wYU4mwdR1w",
+            "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l1Ei_UOn3gRmgfSr7yz9KSSKyCjd8q_rgy03IhZBNtW-WLHx4=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "I love ALL 800+ of them!  I’m your #1 fan 💋🤍",
+          "likeCount": 1,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 2
+        },
+        {
+          "id": "Ugzo182WuVvr3FSImgN4AaABAg.A1YNxqS8TRsA23Wtf7uHH8",
+          "parentId": "Ugzo182WuVvr3FSImgN4AaABAg",
+          "author": {
+            "name": "@Weston_999",
+            "channelUrl": "https://www.youtube.com/@Weston_999",
+            "channelId": "UCC_A6_nF9C-NtN8CkTLmkeg",
+            "profileImageUrl": "https://yt3.ggpht.com/MLQFsqK08C39_DJVq8velsY7Rdh_A0oUcGyO81d-aqLHgxmFaEnbL_EfAMoEFrosOvmHQKKvtLc=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "Thank you so much for all of these song it really helps me with this breakup",
+          "likeCount": 1,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 3
+        }
+      ]
+    }
+  ]
 }

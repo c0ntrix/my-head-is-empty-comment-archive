@@ -60,8 +60,37 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:40.010Z",
-  "archivedAt": "2026-08-05T11:34:40.010Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:45:16.218Z",
+  "comments": [
+    {
+      "id": "UgxDpKjwtaqWzkOMuBt4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@FakeFake-vf5xn",
+        "channelUrl": "https://www.youtube.com/@FakeFake-vf5xn",
+        "channelId": "UC4WEKX11AXbmp-Rw7vujyzQ",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mBIcRF7KJgZtH1sF9zpZLyP7dSzGRgl9uQCveLZwMNt8fOfoKZxIn1FLNP303YunpsIQ=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "So beautiful 🥺",
+      "likeCount": 2,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

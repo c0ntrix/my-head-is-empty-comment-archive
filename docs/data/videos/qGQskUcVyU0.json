@@ -53,14 +53,172 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 14535,
+    "viewCount": 14563,
     "likeCount": 195,
     "commentCount": 6,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:22.767Z",
-  "archivedAt": "2026-08-05T11:34:22.767Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:31:54.142Z",
+  "comments": [
+    {
+      "id": "UgzyYtBiawxu2-0s5TJ4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@myheadisempty",
+        "channelUrl": "https://www.youtube.com/@myheadisempty",
+        "channelId": "UCADJhczGwtPelGm0EqVi3Mg",
+        "profileImageUrl": "https://yt3.ggpht.com/r_M1Na4RYIIeJx1VjYaPt1Fv5gVqm4ZFfF8wFQ-gD43dA1AA_pCWaUEEXbxqDCsQ3EYovNFD=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "19 albums of songs like this - my \"nothing is real\" album series\n♡♡♡ https://open.spotify.com/playlist/6H7FT9Um7zb7aRgFbSMLX3\n♡♡♡ https://soundcloud.com/tidecruz/sets/the-nothings\n♡♡♡ https://tidecruz.bandcamp.com/",
+      "likeCount": 3,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "UgzyYtBiawxu2-0s5TJ4AaABAg.9xsD9-eO7_FA8WkcfwqpnR",
+          "parentId": "UgzyYtBiawxu2-0s5TJ4AaABAg",
+          "author": {
+            "name": "@yinyang2385",
+            "channelUrl": "https://www.youtube.com/@yinyang2385",
+            "channelId": "UCj4EtvXCyZJ-JnQGNG90Eig",
+            "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nFDGFuO2gyhFNWj7QShumPie_eZdi-RRfl4ExNLEyVjA=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "Would love to know more about your creative process. Do you use DAW like FL Studio or mainly hardware?",
+          "likeCount": 1,
+          "publishedAt": "2025-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "1 year ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "UgwJ6q_v58pnu9PF5Md4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@crushingthefaithless",
+        "channelUrl": "https://www.youtube.com/@crushingthefaithless",
+        "channelId": "UCSimoarzbGgJ_HbMZvQUYFw",
+        "profileImageUrl": "https://yt3.ggpht.com/T_8RQQnaKg017ktU4YtmV6pxpSg_W0Z5uQPoz3629omoTPwDHHduK4ORD2IgDCFsvzczHSIm3g=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "love u",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxvyzL53v8SGf09YSJ4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@JugglaP",
+        "channelUrl": "https://www.youtube.com/@JugglaP",
+        "channelId": "UCAr9Sywyx3Nh9WMRWkbV9yQ",
+        "profileImageUrl": "https://yt3.ggpht.com/D-5gXdU-JAq9hs9tws1uUEaXxWXS4EgFUvbLTee_s4loI_bi2PPn0fsThfNgqa6twQvqt8wDnw=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "W song",
+      "likeCount": 1,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 3,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugx2Siy2kEEq6DyfVEJ4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@kruisader3917",
+        "channelUrl": "https://www.youtube.com/@kruisader3917",
+        "channelId": "UCVFL-dyoWkdnP3c86HEnPJA",
+        "profileImageUrl": "https://yt3.ggpht.com/kOLT2JIWSlD0erwJmey_Fsmqy_p-UFg78mUKJlMJxVO1_jOGhixZexG59J9KSEIqDB25GS6recA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Did you make this?",
+      "likeCount": 3,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 4,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "Ugx2Siy2kEEq6DyfVEJ4AaABAg.9uhrr9H2a7F9uhs1I5fmHE",
+          "parentId": "Ugx2Siy2kEEq6DyfVEJ4AaABAg",
+          "author": {
+            "name": "@myheadisempty",
+            "channelUrl": "https://www.youtube.com/@myheadisempty",
+            "channelId": "UCADJhczGwtPelGm0EqVi3Mg",
+            "profileImageUrl": "https://yt3.ggpht.com/r_M1Na4RYIIeJx1VjYaPt1Fv5gVqm4ZFfF8wFQ-gD43dA1AA_pCWaUEEXbxqDCsQ3EYovNFD=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "yes",
+          "likeCount": 3,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    }
+  ]
 }

@@ -58,8 +58,111 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:32.524Z",
-  "archivedAt": "2026-08-05T11:34:32.524Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:39:36.797Z",
+  "comments": [
+    {
+      "id": "UgxN5IdfPLU41DQYNGt4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@AlanGimenez-bo4mu",
+        "channelUrl": "https://www.youtube.com/@AlanGimenez-bo4mu",
+        "channelId": "UC506aSqZnnN7dNmABqUcm5w",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nATaj_XyZ449yTpyY9GNkkpedOEjet8B9ru95ikqwS3Mf-MXvcS1UlV0t6a5VEu6AwMQ=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "This needs to have more coments",
+      "likeCount": 3,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 2,
+      "replies": [
+        {
+          "id": "UgxN5IdfPLU41DQYNGt4AaABAg.A6mNCGCahhRA7oFPO1rYVF",
+          "parentId": "UgxN5IdfPLU41DQYNGt4AaABAg",
+          "author": {
+            "name": "@Frisk_the_Phoenix",
+            "channelUrl": "https://www.youtube.com/@Frisk_the_Phoenix",
+            "channelId": "UCzMeKPTz5dObbnqH6kVGO5w",
+            "profileImageUrl": "https://yt3.ggpht.com/m96Y0FIsXc6TRftRmULVmFeMW5jvdl66-_zXM9z5GxnzyCfnlkBtS5DSVRYblz4WVoPXhRoZ=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "I agree.",
+          "likeCount": 2,
+          "publishedAt": "2025-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "1 year ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        },
+        {
+          "id": "UgxN5IdfPLU41DQYNGt4AaABAg.A6mNCGCahhRAJyADn2K6Hg",
+          "parentId": "UgxN5IdfPLU41DQYNGt4AaABAg",
+          "author": {
+            "name": "@hazytrop",
+            "channelUrl": "https://www.youtube.com/@hazytrop",
+            "channelId": "UCj3CKOG_3LLFzs5zNo86s-A",
+            "profileImageUrl": "https://yt3.ggpht.com/HezHliWjCxJAN3D1B51LVGL-JdtkBAS0gPKa4LiTapxBt3ZU7T3T89SGP-x-Iz6RAlPOFzQ2Lw=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "fr",
+          "likeCount": 1,
+          "publishedAt": "2025-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "1 year ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "UgxBB-HfDDpmwEH0XBN4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Frisk_the_Phoenix",
+        "channelUrl": "https://www.youtube.com/@Frisk_the_Phoenix",
+        "channelId": "UCzMeKPTz5dObbnqH6kVGO5w",
+        "profileImageUrl": "https://yt3.ggpht.com/m96Y0FIsXc6TRftRmULVmFeMW5jvdl66-_zXM9z5GxnzyCfnlkBtS5DSVRYblz4WVoPXhRoZ=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Honestly, I wanna just waste away. . .",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 3,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

@@ -59,8 +59,64 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:42.015Z",
-  "archivedAt": "2026-08-05T11:34:42.015Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:47:20.335Z",
+  "comments": [
+    {
+      "id": "UgwNn5-rRhZxBLHCDwx4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@ItzSebas-",
+        "channelUrl": "https://www.youtube.com/@ItzSebas-",
+        "channelId": "UCEEyCqRiQbXQp_TG7V4eHlg",
+        "profileImageUrl": "https://yt3.ggpht.com/WGukZMBtURozeGUwFx5g7dSjjZXuRfuuIaeGbawvO1oYU_LAYKFekgK3pgmbDOOvhaQc4chHq5Q=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "yes",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgzSuo2Vic5W7Glat7x4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Pucktechnology",
+        "channelUrl": "https://www.youtube.com/@Pucktechnology",
+        "channelId": "UCTET2nEJBdLnijHdnc6B0zA",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_misQuZiDUP7Z7nPYsNTgecYc2xBCS8xYVP2UInQLC48w=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Yes",
+      "likeCount": 0,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

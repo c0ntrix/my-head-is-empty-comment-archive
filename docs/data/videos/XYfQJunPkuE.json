@@ -54,14 +54,97 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 9001,
+    "viewCount": 9002,
     "likeCount": 119,
     "commentCount": 3,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:45.633Z",
-  "archivedAt": "2026-08-05T11:34:45.633Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:49:22.440Z",
+  "comments": [
+    {
+      "id": "UgwLFIB1SZr1kjaFwEV4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@tristanite907",
+        "channelUrl": "https://www.youtube.com/@tristanite907",
+        "channelId": "UCWMTvUDOocd4_eIqAsihXNQ",
+        "profileImageUrl": "https://yt3.ggpht.com/C5Bb1UEpfjwOqA5eM007ove6zf6-Xe7qKAXzp520jqBI0STJVVtLv8vC2PHBnLrZ5FkcNFAMEA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Hello fellow listeners......",
+      "likeCount": 7,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgynYapXjgp5eC5E8mF4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@진주샤인",
+        "channelUrl": "https://www.youtube.com/@%EC%A7%84%EC%A3%BC%EC%83%A4%EC%9D%B8",
+        "channelId": "UCzmqeRXIkNWdw1y0H0Voaog",
+        "profileImageUrl": "https://yt3.ggpht.com/FVnAxTmZ4wQg-JuyB7zWfHK3ha9kFJplwXhs9bQ11HiBeqzNiERadseg0siyRIt1A6W6JfWxWeY=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "It is not just a song, it is an art",
+      "likeCount": 2,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxLh4aHOGCHMUURhOh4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@santiagodiazvaldes1202",
+        "channelUrl": "https://www.youtube.com/@santiagodiazvaldes1202",
+        "channelId": "UCFnr5cXGgvBhasAzO5SQ9GA",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kQ8tA-0sSb1HW5KoGOAdvnLS4j8rYczPJmeUlldPd1Evo=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "We need an extended version of this masterpiece",
+      "likeCount": 0,
+      "publishedAt": "2025-09-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "11 months ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

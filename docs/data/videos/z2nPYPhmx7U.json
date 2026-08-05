@@ -53,14 +53,70 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 53868,
+    "viewCount": 53909,
     "likeCount": 285,
     "commentCount": 2,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:37.418Z",
-  "archivedAt": "2026-08-05T11:34:37.418Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:43:42.159Z",
+  "comments": [
+    {
+      "id": "UgypT2DcqrC89bseM914AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@DonnaWood-q3u",
+        "channelUrl": "https://www.youtube.com/@DonnaWood-q3u",
+        "channelId": "UCX0iBCd5mY6lN67X1uqeG2w",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nd9CUTH_vUS6yLFfCh_EH5NHiIQaskwp1Eiz_BGHeJdhT6LRhIGrQvmGbeGa18USPkig=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "I love you whoever you are I only know you by your name my head is empty but man you have helped me more than you will ever know I love you thank you",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxCVRYRNaoZHKlIoGB4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@DomTheNerdyWeirdo",
+        "channelUrl": "https://www.youtube.com/@DomTheNerdyWeirdo",
+        "channelId": "UCljSi-fKnMH11rlkxMwLg0g",
+        "profileImageUrl": "https://yt3.ggpht.com/ke032IkwLsTPqdlkyTkQziD66cEtM3sKT5Cd7jFeL4yxfeX9OefaImzzDYdTNNTg9DGk5QKjdA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Wow its sad no one gives you also support miranda rain but atleast im followed to both you and my head is empty now😊",
+      "likeCount": 3,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

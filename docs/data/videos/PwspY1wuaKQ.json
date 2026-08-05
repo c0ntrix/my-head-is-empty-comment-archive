@@ -54,14 +54,97 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 13158,
+    "viewCount": 13162,
     "likeCount": 165,
     "commentCount": 3,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:44.858Z",
-  "archivedAt": "2026-08-05T11:34:44.858Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:48:48.587Z",
+  "comments": [
+    {
+      "id": "UgwXZC3lpaVuDVdxcC94AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@AngelOfUnseen",
+        "channelUrl": "https://www.youtube.com/@AngelOfUnseen",
+        "channelId": "UCBQmZ2cJUO1Xw5j0gt4uKUA",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k-_DOD_rnK74r9q7bAggizHQIykiiehNcbFmqir240DQ=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Just used this song in a stargazing playlist tonight with a friend. It fit in wonderfully and I will remember her whenever I hear this song in the future",
+      "likeCount": 9,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgysyDuReRsSin71MAx4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@xbryan1234",
+        "channelUrl": "https://www.youtube.com/@xbryan1234",
+        "channelId": "UCXumdigP1IobwuiEL4NjFTA",
+        "profileImageUrl": "https://yt3.ggpht.com/IkX1Tzu2oCnr0wnwXq5SeMIn5Y_OPlNa01Z_QufIwQqZMVhVkcvjFKQaScsLHsonJv2uDzeRcg=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "🙏",
+      "likeCount": 3,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgxpLYuq5acxB7YVnQB4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@gigachad9.2",
+        "channelUrl": "https://www.youtube.com/@gigachad9.2",
+        "channelId": "UC9xMyn16u78bET2FrzE8P9g",
+        "profileImageUrl": "https://yt3.ggpht.com/gXPY8d-qZYoa1KOhFY_L2s50AiyGC00SsQcdrKjdIo57vyG7w82CMe6xj_LhJD9a5Gj4OR7oXKg=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Please take me back to August 2023, I was very stupid, I will change everything.. I beg.. I beg you from the bottom of my heart.. For God's sake.. Higher powers... I want this more than anything in the world... I don't need anything else in this life...",
+      "likeCount": 0,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

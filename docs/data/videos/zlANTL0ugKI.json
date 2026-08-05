@@ -59,8 +59,64 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:42.329Z",
-  "archivedAt": "2026-08-05T11:34:42.329Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:47:29.106Z",
+  "comments": [
+    {
+      "id": "UgzdeaJZ9q7dh3CQW6V4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@ItzSebas-",
+        "channelUrl": "https://www.youtube.com/@ItzSebas-",
+        "channelId": "UCEEyCqRiQbXQp_TG7V4eHlg",
+        "profileImageUrl": "https://yt3.ggpht.com/WGukZMBtURozeGUwFx5g7dSjjZXuRfuuIaeGbawvO1oYU_LAYKFekgK3pgmbDOOvhaQc4chHq5Q=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "you used to be\nso small\njust like me\nyou've out grown\nyour stay here with me\ni can't feel so sorry \nfor myself\ni'm not sure if i'll see you\nagain",
+      "likeCount": 4,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgyCO3xY8Jb6cuENQIR4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Jas-iWISHiWAS",
+        "channelUrl": "https://www.youtube.com/@Jas-iWISHiWAS",
+        "channelId": "UCx5XjVS-dmjoewTOOfW-uqw",
+        "profileImageUrl": "https://yt3.ggpht.com/oYQgB3XnTPVuYAARODnicqjv94Re3q3X-C58RtjXTDYKp9a5ZzN3jDy_808nOIjzX9WJ0HQA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Quality song, love the psychedelic vibes on this whole album",
+      "likeCount": 3,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

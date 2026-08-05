@@ -53,14 +53,121 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 5355,
+    "viewCount": 5356,
     "likeCount": 66,
     "commentCount": 4,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:39.389Z",
-  "archivedAt": "2026-08-05T11:34:39.389Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:44:58.148Z",
+  "comments": [
+    {
+      "id": "UgwOHMqxi2gWj0uaGs94AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@kudlasiberian",
+        "channelUrl": "https://www.youtube.com/@kudlasiberian",
+        "channelId": "UCcw7hQaY2Def1Auw0RBkYCg",
+        "profileImageUrl": "https://yt3.ggpht.com/2aRNgIG835X1FpExPiybBT-TXMY8icwfRazB8wx0VmJ1vEUa7jTelHx-ZfoPYGQDac-QSxJe=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "why is this not popular yet",
+      "likeCount": 3,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "UgwOHMqxi2gWj0uaGs94AaABAg.A0ooIHBk5rJA4EetkHTaob",
+          "parentId": "UgwOHMqxi2gWj0uaGs94AaABAg",
+          "author": {
+            "name": "@Jmassey6",
+            "channelUrl": "https://www.youtube.com/@Jmassey6",
+            "channelId": "UCEZhKK6IUhQxg4PSZjVAv9Q",
+            "profileImageUrl": "https://yt3.ggpht.com/MTsrwnNtS3EDxT1w6cLYIxDH7okGQ_AodOrxqqHq42Mm4Y80BjCAU3IgjTnyzSjA-wiQtFLAyw=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "I know this shit is beautiful",
+          "likeCount": 0,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "UgyqjASdpSlkltl96nN4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@fromthedaylight7",
+        "channelUrl": "https://www.youtube.com/@fromthedaylight7",
+        "channelId": "UC8oV2yVu4s8swPmQd8FnNZA",
+        "profileImageUrl": "https://yt3.ggpht.com/EI5G_6qdhtYYejq3ihptLXGs_JwrUbgzZYDB38fyDtbOgVAwKLAk0EZsRjjwzFS6dsMegIkubA=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Thankyou",
+      "likeCount": 1,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugzb6fAa-mpwm6ZRQd14AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Lameezy9",
+        "channelUrl": "https://www.youtube.com/@Lameezy9",
+        "channelId": "UCeWO2HDGBCnv2vzPO11zOTQ",
+        "profileImageUrl": "https://yt3.ggpht.com/7Ssq3E9tuPv1qWnMILXmVAFUxkgJy3q1gOeeyBGm5N-hBurSj2H6F__aoDEOgpoaE6od41x_6A=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "what a beautifully written song",
+      "likeCount": 0,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 3,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

@@ -59,8 +59,139 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:21.131Z",
-  "archivedAt": "2026-08-05T11:34:21.131Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:30:37.983Z",
+  "comments": [
+    {
+      "id": "UgzFuwq_VMcFH_DekA14AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@parasyting",
+        "channelUrl": "https://www.youtube.com/@parasyting",
+        "channelId": "UCZcuSyLcCzOQlRoF_zaO0gA",
+        "profileImageUrl": "https://yt3.ggpht.com/vIeE9g_Yt3J4s1083FcDr1v_4JuqgCdJSQXW-k-467EcHgR-5AZ6HROF4zDzd6FqdRyaPnXK3w=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "hope you’re doing good bruh",
+      "likeCount": 6,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "UgzFuwq_VMcFH_DekA14AaABAg.A2F0o6zfHXvA2iOrdDrB-w",
+          "parentId": "UgzFuwq_VMcFH_DekA14AaABAg",
+          "author": {
+            "name": "@Jchannelqpo0",
+            "channelUrl": "https://www.youtube.com/@Jchannelqpo0",
+            "channelId": "UCL8akMi8dl2Z6wYU4mwdR1w",
+            "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l1Ei_UOn3gRmgfSr7yz9KSSKyCjd8q_rgy03IhZBNtW-WLHx4=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "🤍",
+          "likeCount": 2,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "UgzlYvk85V_lN_rTS-54AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@CEKTAHTIIK",
+        "channelUrl": "https://www.youtube.com/@CEKTAHTIIK",
+        "channelId": "UCU_SbgbzBRzrqxR_qFjDFvA",
+        "profileImageUrl": "https://yt3.ggpht.com/_vVUaYl9d0JdbjwK2XtzBpjXavTSQQvxZdPkmWSpq5NLXMFNXRVIVqLL9SWWFEZNbeXV9m3m1A=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Спасибо тебе, твоя музыка помогает мечтать о лучшем",
+      "likeCount": 7,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 1,
+      "replies": [
+        {
+          "id": "UgzlYvk85V_lN_rTS-54AaABAg.A2IFPDXPQHwA2iOlwxfI6V",
+          "parentId": "UgzlYvk85V_lN_rTS-54AaABAg",
+          "author": {
+            "name": "@Jchannelqpo0",
+            "channelUrl": "https://www.youtube.com/@Jchannelqpo0",
+            "channelId": "UCL8akMi8dl2Z6wYU4mwdR1w",
+            "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l1Ei_UOn3gRmgfSr7yz9KSSKyCjd8q_rgy03IhZBNtW-WLHx4=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "That is his soul intent! To share his music so people can feel love!🤍",
+          "likeCount": 3,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "UgzQ8Bf6ENC6ZWeqe2d4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Oscargillbert",
+        "channelUrl": "https://www.youtube.com/@Oscargillbert",
+        "channelId": "UCXr68an_AVUsx1H8Gz42eLw",
+        "profileImageUrl": "https://yt3.ggpht.com/5ya9Ed1EMzHp4DnQZH2nXZsHeDrccVpi077WP46lgi3C0aJi6BIcl2RGaX7bR02VqmtnWmMM=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Z",
+      "likeCount": 0,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 4,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }

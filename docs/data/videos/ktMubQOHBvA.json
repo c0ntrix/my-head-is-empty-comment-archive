@@ -53,14 +53,70 @@
   "embeddable": true,
   "madeForKids": false,
   "statistics": {
-    "viewCount": 6342,
+    "viewCount": 6344,
     "likeCount": 80,
     "commentCount": 2,
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:22.507Z",
-  "archivedAt": "2026-08-05T11:34:22.507Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:31:41.464Z",
+  "comments": [
+    {
+      "id": "Ugw9RztS1bA6LFw6iFh4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@Void_Pryale",
+        "channelUrl": "https://www.youtube.com/@Void_Pryale",
+        "channelId": "UC918F4n4mfbJbvZVVgbXLyQ",
+        "profileImageUrl": "https://yt3.ggpht.com/4hcQEX5bRKaVgM0xzuIvEbQ6y3rAbQ1CmDXgsyuX2IvpI69pAiVcO-RyDOxKiqS_oSZpJ65I=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "Good work 🤌",
+      "likeCount": 5,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwjfyUJAKBG_sT8YYx4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@myheadisempty",
+        "channelUrl": "https://www.youtube.com/@myheadisempty",
+        "channelId": "UCADJhczGwtPelGm0EqVi3Mg",
+        "profileImageUrl": "https://yt3.ggpht.com/r_M1Na4RYIIeJx1VjYaPt1Fv5gVqm4ZFfF8wFQ-gD43dA1AA_pCWaUEEXbxqDCsQ3EYovNFD=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "19 albums of songs like this - my \"nothing is real\" album series\n♡♡♡ https://open.spotify.com/playlist/6H7FT9Um7zb7aRgFbSMLX3\n♡♡♡ https://soundcloud.com/tidecruz/sets/the-nothings\n♡♡♡ https://tidecruz.bandcamp.com/",
+      "likeCount": 8,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }
