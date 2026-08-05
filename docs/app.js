@@ -31,8 +31,10 @@ function renderIndex() {
   const page = element("div");
   page.innerHTML = `
     <section class="hero">
-      <h1>my head is empty archive</h1>
-      <p class="hero-note">An archive of <em>my head is empty</em> videos that will sadly be deleted, preserving the meaningful comments, diaries, love, and support people shared beneath them.</p>
+      <div class="hero-copy">
+        <h1>my head is empty archive</h1>
+        <p class="hero-note">An archive of <em>my head is empty</em> videos that will sadly be deleted, preserving the meaningful comments, diaries, love, and support people shared beneath them.</p>
+      </div>
       <div class="archive-downloads" aria-label="Archive downloads">
         <a class="download-option download-option-primary" href="https://github.com/c0ntrix/my-head-is-empty-comment-archive/archive/refs/heads/main.zip" aria-label="Download the complete archive as a ZIP file">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h16v12.25A1.25 1.25 0 0 1 18.75 21H5.25A1.25 1.25 0 0 1 4 19.75V7.5ZM3 3h18v4.5H3V3Zm6 9h6"/></svg>
@@ -45,17 +47,14 @@ function renderIndex() {
       </div>
     </section>
     <section class="archive-stats" aria-label="Archive totals">
-      ${stat(archiveIndex.totals.videos, "videos")}
-      ${stat(archiveIndex.totals.comments, "comments and replies preserved")}
+      ${stat(archiveIndex.totals.videos, "archived videos")}
+      ${stat(archiveIndex.totals.comments, "comments and replies")}
     </section>
-    <section class="catalogue">
-      <div class="section-head">
-        <div><h2>Videos</h2></div>
-        <span class="result-count" id="result-count"></span>
-      </div>
+    <section class="catalogue" aria-label="Archived videos">
       <div class="controls">
         <label class="search-wrap"><span class="visually-hidden">Search videos</span><input id="video-search" type="search" placeholder="Search titles or channel…" autocomplete="off"></label>
         <label><span class="visually-hidden">Sort videos</span><select id="video-sort"><option value="source">Original order</option><option value="title">Title A–Z</option><option value="views" selected>Most viewed</option><option value="comments">Most comments</option><option value="newest">Newest video</option></select></label>
+        <span class="result-count" id="result-count" aria-live="polite"></span>
       </div>
       <div class="video-grid" id="video-grid"></div>
     </section>`;
