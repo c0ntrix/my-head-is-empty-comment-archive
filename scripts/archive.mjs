@@ -20,6 +20,7 @@ import {
 const API_ROOT = "https://www.googleapis.com/youtube/v3";
 const args = new Set(process.argv.slice(2));
 const refresh = args.has("--refresh");
+const check = args.has("--check");
 const downloadAvatars = args.has("--download-avatars");
 const onlyArg = process.argv.find((arg) => arg.startsWith("--only="));
 const only = onlyArg ? new Set(onlyArg.slice(7).split(",").map((id) => id.trim())) : null;
@@ -47,7 +48,9 @@ await Promise.all([
 ]);
 
 console.log(
-  `Archiving ${sources.length} video(s)${refresh ? " (refreshing completed archives)" : ""}.`,
+  check
+    ? `Checking ${sources.length} video(s) for new comments.`
+    : `Archiving ${sources.length} video(s)${refresh ? " (refreshing completed archives)" : ""}.`,
 );
 
 let processed = 0;
@@ -57,16 +60,18 @@ for (const source of sources) {
   const existingLooksComplete =
     existing?.archiveStatus === "complete" &&
     publicVideoSummary(existing).archiveStatus === "complete";
-  if (existingLooksComplete && !refresh) {
+  if (existingLooksComplete && !refresh && !check) {
     console.log(`[${++processed}/${sources.length}] ${source.id} already archived; skipping.`);
     continue;
   }
 
   console.log(`[${processed + 1}/${sources.length}] ${source.title ?? source.id}`);
   const metadata = await fetchVideo(source.id);
+  const checkedAt = new Date().toISOString();
   if (!metadata) {
-    if (existing?.archiveStatus === "complete") {
+    if (existing?.comments?.length || ["complete", "partial"].includes(existing?.archiveStatus)) {
       console.warn("  Video is no longer returned by the API; preserving the existing archive.");
+      await writeJsonAtomic(outputFile, { ...existing, lastCheckedAt: checkedAt });
     } else {
       await writeJsonAtomic(outputFile, {
         schemaVersion: 1,
@@ -75,7 +80,8 @@ for (const source of sources) {
         originalUrl: source.url,
         archiveStatus: "unavailable",
         commentsStatus: "unavailable",
-        archivedAt: new Date().toISOString(),
+        archivedAt: checkedAt,
+        lastCheckedAt: checkedAt,
         comments: [],
       });
     }
@@ -84,9 +90,39 @@ for (const source of sources) {
     continue;
   }
 
+  const reportedCommentCount = Number(metadata.statistics?.commentCount ?? 0);
+  const existingCommentCount = countComments(existing?.comments ?? []);
+  const hasExistingArchive =
+    Array.isArray(existing?.comments) &&
+    ["complete", "partial"].includes(existing?.archiveStatus);
+  const needsCommentRefresh =
+    refresh || !hasExistingArchive || reportedCommentCount > existingCommentCount;
+  if (check && !needsCommentRefresh) {
+    const commentsStatus = existing.commentsStatus === "partial"
+      ? "complete"
+      : existing.commentsStatus;
+    const checkedVideo = mapVideo(
+      metadata,
+      source,
+      existing.thumbnail,
+      existing.comments,
+      commentsStatus,
+      existing.commentsSource,
+      existing.archivedAt ?? checkedAt,
+      existing,
+      checkedAt,
+    );
+    await writeJsonAtomic(outputFile, checkedVideo);
+    await rebuildIndex(allSources);
+    processed += 1;
+    console.log(
+      `  Up to date: ${existingCommentCount} archived, ${reportedCommentCount} currently reported.`,
+    );
+    continue;
+  }
+
   const thumbnail = await archiveThumbnail(source.id, metadata.snippet.thumbnails);
   let commentResult = await fetchAllCommentThreads(source.id);
-  const reportedCommentCount = Number(metadata.statistics?.commentCount ?? 0);
   if (commentResult.status === "disabled" && reportedCommentCount > 0) {
     console.warn(
       `  The API says disabled, but the video reports ${reportedCommentCount} comments. Using the web fallback.`,
@@ -100,11 +136,10 @@ for (const source of sources) {
     commentsStatus = "archived-before-disabled";
     console.warn("  Comments are now disabled; preserving previously archived comments.");
   }
-  if (commentResult.source === "youtube-web-via-yt-dlp" && existing?.comments?.length) {
+  if (existing?.comments?.length) {
     comments = mergeArchivedCommentThreads(existing.comments, comments);
   }
   if (
-    commentResult.source === "youtube-web-via-yt-dlp" &&
     reportedCommentCount > 0 &&
     countComments(comments) < reportedCommentCount
   ) {
@@ -125,6 +160,7 @@ for (const source of sources) {
     commentResult.source,
     now,
     existing,
+    now,
   );
   await writeJsonAtomic(outputFile, video);
   await rebuildIndex(allSources);
@@ -528,6 +564,7 @@ function mapVideo(
   commentsSource,
   archivedAt,
   existing,
+  lastCheckedAt,
 ) {
   const snippet = resource.snippet ?? {};
   const statistics = resource.statistics ?? {};
@@ -568,6 +605,7 @@ function mapVideo(
     commentsSource,
     firstArchivedAt: existing?.firstArchivedAt ?? existing?.archivedAt ?? archivedAt,
     archivedAt,
+    lastCheckedAt,
     comments,
   };
 }

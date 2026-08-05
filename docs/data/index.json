@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T21:42:23.495Z",
+  "generatedAt": "2026-08-05T21:53:13.430Z",
   "lastArchivedAt": "2026-08-05T21:34:25.897Z",
+  "lastCheckedAt": "2026-08-05T21:53:12.913Z",
   "totals": {
     "videos": 121,
     "archived": 121,
@@ -28,6 +29,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "partial",
       "archivedAt": "2026-08-05T21:34:25.897Z",
+      "lastCheckedAt": "2026-08-05T21:34:25.897Z",
       "originalUrl": "https://www.youtube.com/watch?v=bFNq9iS4Xn4"
     },
     {
@@ -50,6 +52,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T12:57:51.033Z",
+      "lastCheckedAt": "2026-08-05T12:57:51.033Z",
       "originalUrl": "https://www.youtube.com/watch?v=HndF_Abg0sI"
     },
     {
@@ -72,6 +75,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T12:58:51.139Z",
+      "lastCheckedAt": "2026-08-05T12:58:51.139Z",
       "originalUrl": "https://www.youtube.com/watch?v=y49nkooAmCA"
     },
     {
@@ -94,6 +98,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:16:07.759Z",
+      "lastCheckedAt": "2026-08-05T13:16:07.759Z",
       "originalUrl": "https://www.youtube.com/watch?v=rpG6Iz0w4Z0"
     },
     {
@@ -116,6 +121,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:18:49.032Z",
+      "lastCheckedAt": "2026-08-05T13:18:49.032Z",
       "originalUrl": "https://www.youtube.com/watch?v=cYku1kDHucA"
     },
     {
@@ -138,6 +144,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:20:41.372Z",
+      "lastCheckedAt": "2026-08-05T13:20:41.372Z",
       "originalUrl": "https://www.youtube.com/watch?v=sQUQY0U5ckE"
     },
     {
@@ -160,6 +167,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:21:13.425Z",
+      "lastCheckedAt": "2026-08-05T13:21:13.425Z",
       "originalUrl": "https://www.youtube.com/watch?v=p_3FDVAwwvY"
     },
     {
@@ -182,6 +190,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:23:59.249Z",
+      "lastCheckedAt": "2026-08-05T13:23:59.249Z",
       "originalUrl": "https://www.youtube.com/watch?v=ApHvn3a7sss"
     },
     {
@@ -204,6 +213,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:25:01.542Z",
+      "lastCheckedAt": "2026-08-05T13:25:01.542Z",
       "originalUrl": "https://www.youtube.com/watch?v=k1oFLm902wM"
     },
     {
@@ -215,8 +225,8 @@
       "duration": "PT1M29S",
       "thumbnail": "assets/thumbnails/ErslxA1LmMk.jpg",
       "statistics": {
-        "viewCount": 319829,
-        "likeCount": 3881,
+        "viewCount": 320140,
+        "likeCount": 3882,
         "commentCount": 39,
         "favoriteCount": 0
       },
@@ -226,6 +236,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:25:16.868Z",
+      "lastCheckedAt": "2026-08-05T21:53:12.913Z",
       "originalUrl": "https://www.youtube.com/watch?v=ErslxA1LmMk"
     },
     {
@@ -248,6 +259,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:25:43.814Z",
+      "lastCheckedAt": "2026-08-05T13:25:43.814Z",
       "originalUrl": "https://www.youtube.com/watch?v=l6zgXsj4KpA"
     },
     {
@@ -270,6 +282,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:25:59.711Z",
+      "lastCheckedAt": "2026-08-05T13:25:59.711Z",
       "originalUrl": "https://www.youtube.com/watch?v=JSNLYyMCz7A"
     },
     {
@@ -292,6 +305,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:26:44.596Z",
+      "lastCheckedAt": "2026-08-05T13:26:44.596Z",
       "originalUrl": "https://www.youtube.com/watch?v=9Fm8c9eINjU"
     },
     {
@@ -314,6 +328,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:27:01.139Z",
+      "lastCheckedAt": "2026-08-05T13:27:01.139Z",
       "originalUrl": "https://www.youtube.com/watch?v=-1s49_s6BJU"
     },
     {
@@ -336,6 +351,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:27:26.691Z",
+      "lastCheckedAt": "2026-08-05T13:27:26.691Z",
       "originalUrl": "https://www.youtube.com/watch?v=7bL-oXQCmkI"
     },
     {
@@ -358,6 +374,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:28:16.721Z",
+      "lastCheckedAt": "2026-08-05T13:28:16.721Z",
       "originalUrl": "https://www.youtube.com/watch?v=Ax1O8WAZZ7o"
     },
     {
@@ -380,6 +397,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:28:26.440Z",
+      "lastCheckedAt": "2026-08-05T13:28:26.440Z",
       "originalUrl": "https://www.youtube.com/watch?v=FE9FC2Oxpqc"
     },
     {
@@ -402,6 +420,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:28:38.738Z",
+      "lastCheckedAt": "2026-08-05T13:28:38.738Z",
       "originalUrl": "https://www.youtube.com/watch?v=a5WjkZRWUv8"
     },
     {
@@ -424,6 +443,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:28:47.655Z",
+      "lastCheckedAt": "2026-08-05T13:28:47.655Z",
       "originalUrl": "https://www.youtube.com/watch?v=XUvnf1c7JDY"
     },
     {
@@ -446,6 +466,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:28:57.272Z",
+      "lastCheckedAt": "2026-08-05T13:28:57.272Z",
       "originalUrl": "https://www.youtube.com/watch?v=kATBaJ3Mzfw"
     },
     {
@@ -468,6 +489,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:29:07.850Z",
+      "lastCheckedAt": "2026-08-05T13:29:07.850Z",
       "originalUrl": "https://www.youtube.com/watch?v=PduK3dwDSLA"
     },
     {
@@ -490,6 +512,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:29:16.915Z",
+      "lastCheckedAt": "2026-08-05T13:29:16.915Z",
       "originalUrl": "https://www.youtube.com/watch?v=E-HBEEP6zH4"
     },
     {
@@ -512,6 +535,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "disabled",
       "archivedAt": "2026-08-05T11:34:19.049Z",
+      "lastCheckedAt": "2026-08-05T11:34:19.049Z",
       "originalUrl": "https://www.youtube.com/watch?v=Crf62O1EZZw"
     },
     {
@@ -534,6 +558,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:29:25.532Z",
+      "lastCheckedAt": "2026-08-05T13:29:25.532Z",
       "originalUrl": "https://www.youtube.com/watch?v=oLLqNM-2hUA"
     },
     {
@@ -556,6 +581,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "disabled",
       "archivedAt": "2026-08-05T11:34:19.560Z",
+      "lastCheckedAt": "2026-08-05T11:34:19.560Z",
       "originalUrl": "https://www.youtube.com/watch?v=WBCds49KSpk"
     },
     {
@@ -578,6 +604,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:29:36.284Z",
+      "lastCheckedAt": "2026-08-05T13:29:36.284Z",
       "originalUrl": "https://www.youtube.com/watch?v=MjCTYj0L8fw"
     },
     {
@@ -600,6 +627,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:29:45.221Z",
+      "lastCheckedAt": "2026-08-05T13:29:45.221Z",
       "originalUrl": "https://www.youtube.com/watch?v=21rwWvVIf2w"
     },
     {
@@ -622,6 +650,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:29:54.423Z",
+      "lastCheckedAt": "2026-08-05T13:29:54.423Z",
       "originalUrl": "https://www.youtube.com/watch?v=PDncclDHUIM"
     },
     {
@@ -644,6 +673,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:30:15.480Z",
+      "lastCheckedAt": "2026-08-05T13:30:15.480Z",
       "originalUrl": "https://www.youtube.com/watch?v=5I68G3LiMHc"
     },
     {
@@ -666,6 +696,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:30:27.499Z",
+      "lastCheckedAt": "2026-08-05T13:30:27.499Z",
       "originalUrl": "https://www.youtube.com/watch?v=9bhe3W1sN2M"
     },
     {
@@ -688,6 +719,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:30:37.983Z",
+      "lastCheckedAt": "2026-08-05T13:30:37.983Z",
       "originalUrl": "https://www.youtube.com/watch?v=8OlU5cB0zgA"
     },
     {
@@ -710,6 +742,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:30:46.641Z",
+      "lastCheckedAt": "2026-08-05T13:30:46.641Z",
       "originalUrl": "https://www.youtube.com/watch?v=FhDOdMXOQ1g"
     },
     {
@@ -732,6 +765,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:30:57.077Z",
+      "lastCheckedAt": "2026-08-05T13:30:57.077Z",
       "originalUrl": "https://www.youtube.com/watch?v=kp3Tjvn8ChU"
     },
     {
@@ -754,6 +788,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:31:10.560Z",
+      "lastCheckedAt": "2026-08-05T13:31:10.560Z",
       "originalUrl": "https://www.youtube.com/watch?v=-FfyndWEUc4"
     },
     {
@@ -776,6 +811,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:31:20.712Z",
+      "lastCheckedAt": "2026-08-05T13:31:20.712Z",
       "originalUrl": "https://www.youtube.com/watch?v=YKFK-h6prGk"
     },
     {
@@ -798,6 +834,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "partial",
       "archivedAt": "2026-08-05T13:31:32.775Z",
+      "lastCheckedAt": "2026-08-05T13:31:32.775Z",
       "originalUrl": "https://www.youtube.com/watch?v=Na3eeLZspKQ"
     },
     {
@@ -820,6 +857,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:31:41.464Z",
+      "lastCheckedAt": "2026-08-05T13:31:41.464Z",
       "originalUrl": "https://www.youtube.com/watch?v=ktMubQOHBvA"
     },
     {
@@ -842,6 +880,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:31:54.142Z",
+      "lastCheckedAt": "2026-08-05T13:31:54.142Z",
       "originalUrl": "https://www.youtube.com/watch?v=qGQskUcVyU0"
     },
     {
@@ -864,6 +903,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:32:03.312Z",
+      "lastCheckedAt": "2026-08-05T13:32:03.312Z",
       "originalUrl": "https://www.youtube.com/watch?v=9uceFac6Q-8"
     },
     {
@@ -886,6 +926,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:32:17.778Z",
+      "lastCheckedAt": "2026-08-05T13:32:17.778Z",
       "originalUrl": "https://www.youtube.com/watch?v=pfDoMjyhHoI"
     },
     {
@@ -908,6 +949,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "partial",
       "archivedAt": "2026-08-05T13:32:48.467Z",
+      "lastCheckedAt": "2026-08-05T13:32:48.467Z",
       "originalUrl": "https://www.youtube.com/watch?v=ogtMiWGQhQA"
     },
     {
@@ -930,6 +972,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:32:58.997Z",
+      "lastCheckedAt": "2026-08-05T13:32:58.997Z",
       "originalUrl": "https://www.youtube.com/watch?v=VxIEPS3l_-I"
     },
     {
@@ -952,6 +995,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:33:08.465Z",
+      "lastCheckedAt": "2026-08-05T13:33:08.465Z",
       "originalUrl": "https://www.youtube.com/watch?v=dp_tVqL_eZ0"
     },
     {
@@ -974,6 +1018,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:33:19.752Z",
+      "lastCheckedAt": "2026-08-05T13:33:19.752Z",
       "originalUrl": "https://www.youtube.com/watch?v=A77yCwxAMI8"
     },
     {
@@ -996,6 +1041,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "partial",
       "archivedAt": "2026-08-05T13:33:31.237Z",
+      "lastCheckedAt": "2026-08-05T13:33:31.237Z",
       "originalUrl": "https://www.youtube.com/watch?v=1Wo1OvNpy9c"
     },
     {
@@ -1018,6 +1064,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:33:47.159Z",
+      "lastCheckedAt": "2026-08-05T13:33:47.159Z",
       "originalUrl": "https://www.youtube.com/watch?v=Z7gTS_0-G_0"
     },
     {
@@ -1040,6 +1087,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:33:58.454Z",
+      "lastCheckedAt": "2026-08-05T13:33:58.454Z",
       "originalUrl": "https://www.youtube.com/watch?v=CepchvvviWU"
     },
     {
@@ -1062,6 +1110,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:34:07.075Z",
+      "lastCheckedAt": "2026-08-05T13:34:07.075Z",
       "originalUrl": "https://www.youtube.com/watch?v=aIjijTIPCDg"
     },
     {
@@ -1084,6 +1133,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:34:29.964Z",
+      "lastCheckedAt": "2026-08-05T13:34:29.964Z",
       "originalUrl": "https://www.youtube.com/watch?v=VJpOuQm-ohQ"
     },
     {
@@ -1106,6 +1156,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:34:42.749Z",
+      "lastCheckedAt": "2026-08-05T13:34:42.749Z",
       "originalUrl": "https://www.youtube.com/watch?v=5wv8OHJtzo8"
     },
     {
@@ -1128,6 +1179,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:34:52.405Z",
+      "lastCheckedAt": "2026-08-05T13:34:52.405Z",
       "originalUrl": "https://www.youtube.com/watch?v=8JciXgV-uNY"
     },
     {
@@ -1150,6 +1202,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:35:01.733Z",
+      "lastCheckedAt": "2026-08-05T13:35:01.733Z",
       "originalUrl": "https://www.youtube.com/watch?v=9_fh-vT0yqs"
     },
     {
@@ -1172,6 +1225,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:35:12.633Z",
+      "lastCheckedAt": "2026-08-05T13:35:12.633Z",
       "originalUrl": "https://www.youtube.com/watch?v=v5qjHHyAplM"
     },
     {
@@ -1194,6 +1248,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:35:27.646Z",
+      "lastCheckedAt": "2026-08-05T13:35:27.646Z",
       "originalUrl": "https://www.youtube.com/watch?v=HUAcrYYoTKg"
     },
     {
@@ -1216,6 +1271,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:35:41.209Z",
+      "lastCheckedAt": "2026-08-05T13:35:41.209Z",
       "originalUrl": "https://www.youtube.com/watch?v=dOVSwMFf3dY"
     },
     {
@@ -1238,6 +1294,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:35:53.165Z",
+      "lastCheckedAt": "2026-08-05T13:35:53.165Z",
       "originalUrl": "https://www.youtube.com/watch?v=3ia_5iZwAUg"
     },
     {
@@ -1260,6 +1317,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:36:07.714Z",
+      "lastCheckedAt": "2026-08-05T13:36:07.714Z",
       "originalUrl": "https://www.youtube.com/watch?v=hzWSQwHEcj8"
     },
     {
@@ -1282,6 +1340,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:36:19.343Z",
+      "lastCheckedAt": "2026-08-05T13:36:19.343Z",
       "originalUrl": "https://www.youtube.com/watch?v=0_JQPblbEdc"
     },
     {
@@ -1304,6 +1363,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:36:33.009Z",
+      "lastCheckedAt": "2026-08-05T13:36:33.009Z",
       "originalUrl": "https://www.youtube.com/watch?v=4RgUGAEag_A"
     },
     {
@@ -1326,6 +1386,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:36:45.299Z",
+      "lastCheckedAt": "2026-08-05T13:36:45.299Z",
       "originalUrl": "https://www.youtube.com/watch?v=y7c7nthwZyo"
     },
     {
@@ -1348,6 +1409,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:36:59.586Z",
+      "lastCheckedAt": "2026-08-05T13:36:59.586Z",
       "originalUrl": "https://www.youtube.com/watch?v=Uf_BI9noAgM"
     },
     {
@@ -1370,6 +1432,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:37:09.237Z",
+      "lastCheckedAt": "2026-08-05T13:37:09.237Z",
       "originalUrl": "https://www.youtube.com/watch?v=O2jP0mTilnk"
     },
     {
@@ -1392,6 +1455,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:37:22.289Z",
+      "lastCheckedAt": "2026-08-05T13:37:22.289Z",
       "originalUrl": "https://www.youtube.com/watch?v=RnSt1-UQEhE"
     },
     {
@@ -1414,6 +1478,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:37:33.756Z",
+      "lastCheckedAt": "2026-08-05T13:37:33.756Z",
       "originalUrl": "https://www.youtube.com/watch?v=192itubRoZo"
     },
     {
@@ -1436,6 +1501,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:37:44.168Z",
+      "lastCheckedAt": "2026-08-05T13:37:44.168Z",
       "originalUrl": "https://www.youtube.com/watch?v=Zq44sLeI7fY"
     },
     {
@@ -1458,6 +1524,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:37:55.205Z",
+      "lastCheckedAt": "2026-08-05T13:37:55.205Z",
       "originalUrl": "https://www.youtube.com/watch?v=iQx6ehM0T18"
     },
     {
@@ -1480,6 +1547,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:38:08.025Z",
+      "lastCheckedAt": "2026-08-05T13:38:08.025Z",
       "originalUrl": "https://www.youtube.com/watch?v=3YOsGhJulN0"
     },
     {
@@ -1502,6 +1570,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:38:16.790Z",
+      "lastCheckedAt": "2026-08-05T13:38:16.790Z",
       "originalUrl": "https://www.youtube.com/watch?v=jRvGr5TYr_8"
     },
     {
@@ -1524,6 +1593,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:38:25.500Z",
+      "lastCheckedAt": "2026-08-05T13:38:25.500Z",
       "originalUrl": "https://www.youtube.com/watch?v=-mZLmlInZ8c"
     },
     {
@@ -1546,6 +1616,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:38:35.930Z",
+      "lastCheckedAt": "2026-08-05T13:38:35.930Z",
       "originalUrl": "https://www.youtube.com/watch?v=GEt_upNuMuk"
     },
     {
@@ -1568,6 +1639,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:38:49.303Z",
+      "lastCheckedAt": "2026-08-05T13:38:49.303Z",
       "originalUrl": "https://www.youtube.com/watch?v=lb_I1BVgRPU"
     },
     {
@@ -1590,6 +1662,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:39:05.755Z",
+      "lastCheckedAt": "2026-08-05T13:39:05.755Z",
       "originalUrl": "https://www.youtube.com/watch?v=9Aa0LQShRhU"
     },
     {
@@ -1612,6 +1685,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:39:14.574Z",
+      "lastCheckedAt": "2026-08-05T13:39:14.574Z",
       "originalUrl": "https://www.youtube.com/watch?v=QnFOa1hAyeA"
     },
     {
@@ -1634,6 +1708,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:39:26.332Z",
+      "lastCheckedAt": "2026-08-05T13:39:26.332Z",
       "originalUrl": "https://www.youtube.com/watch?v=OH4liehJ9Ls"
     },
     {
@@ -1656,6 +1731,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:39:36.797Z",
+      "lastCheckedAt": "2026-08-05T13:39:36.797Z",
       "originalUrl": "https://www.youtube.com/watch?v=AtRhZ1Drnsg"
     },
     {
@@ -1678,6 +1754,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:39:49.750Z",
+      "lastCheckedAt": "2026-08-05T13:39:49.750Z",
       "originalUrl": "https://www.youtube.com/watch?v=h0NkIPhtfI8"
     },
     {
@@ -1700,6 +1777,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:40:00.510Z",
+      "lastCheckedAt": "2026-08-05T13:40:00.510Z",
       "originalUrl": "https://www.youtube.com/watch?v=snAKejF-FpM"
     },
     {
@@ -1722,6 +1800,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:40:10.237Z",
+      "lastCheckedAt": "2026-08-05T13:40:10.237Z",
       "originalUrl": "https://www.youtube.com/watch?v=aLaEgPPrI0k"
     },
     {
@@ -1744,6 +1823,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:40:53.178Z",
+      "lastCheckedAt": "2026-08-05T13:40:53.178Z",
       "originalUrl": "https://www.youtube.com/watch?v=kQTrnpF-RO0"
     },
     {
@@ -1766,6 +1846,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:41:07.281Z",
+      "lastCheckedAt": "2026-08-05T13:41:07.281Z",
       "originalUrl": "https://www.youtube.com/watch?v=R93oCC2eoqI"
     },
     {
@@ -1788,6 +1869,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:41:15.859Z",
+      "lastCheckedAt": "2026-08-05T13:41:15.859Z",
       "originalUrl": "https://www.youtube.com/watch?v=UVdk9zjsGyI"
     },
     {
@@ -1810,6 +1892,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:41:24.163Z",
+      "lastCheckedAt": "2026-08-05T13:41:24.163Z",
       "originalUrl": "https://www.youtube.com/watch?v=_Tfb-B79iG8"
     },
     {
@@ -1832,6 +1915,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:41:33.346Z",
+      "lastCheckedAt": "2026-08-05T13:41:33.346Z",
       "originalUrl": "https://www.youtube.com/watch?v=1fcYizt8IlM"
     },
     {
@@ -1854,6 +1938,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:41:42.068Z",
+      "lastCheckedAt": "2026-08-05T13:41:42.068Z",
       "originalUrl": "https://www.youtube.com/watch?v=XKu4VcWMFsw"
     },
     {
@@ -1876,6 +1961,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:41:54.380Z",
+      "lastCheckedAt": "2026-08-05T13:41:54.380Z",
       "originalUrl": "https://www.youtube.com/watch?v=NdQbO4GFOsU"
     },
     {
@@ -1898,6 +1984,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:42:15.311Z",
+      "lastCheckedAt": "2026-08-05T13:42:15.311Z",
       "originalUrl": "https://www.youtube.com/watch?v=zm_0q2uCgS8"
     },
     {
@@ -1920,6 +2007,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:42:24.817Z",
+      "lastCheckedAt": "2026-08-05T13:42:24.817Z",
       "originalUrl": "https://www.youtube.com/watch?v=6rgCkKyHt9U"
     },
     {
@@ -1942,6 +2030,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:42:37.525Z",
+      "lastCheckedAt": "2026-08-05T13:42:37.525Z",
       "originalUrl": "https://www.youtube.com/watch?v=bdy7piyGnGs"
     },
     {
@@ -1964,6 +2053,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:42:50.155Z",
+      "lastCheckedAt": "2026-08-05T13:42:50.155Z",
       "originalUrl": "https://www.youtube.com/watch?v=qSci3Ox0OcE"
     },
     {
@@ -1986,6 +2076,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:43:02.861Z",
+      "lastCheckedAt": "2026-08-05T13:43:02.861Z",
       "originalUrl": "https://www.youtube.com/watch?v=17zZEs4Ae58"
     },
     {
@@ -2008,6 +2099,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:43:11.378Z",
+      "lastCheckedAt": "2026-08-05T13:43:11.378Z",
       "originalUrl": "https://www.youtube.com/watch?v=bmwppOcUKhg"
     },
     {
@@ -2030,6 +2122,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:43:31.747Z",
+      "lastCheckedAt": "2026-08-05T13:43:31.747Z",
       "originalUrl": "https://www.youtube.com/watch?v=DwSH0pcsI88"
     },
     {
@@ -2052,6 +2145,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:43:42.159Z",
+      "lastCheckedAt": "2026-08-05T13:43:42.159Z",
       "originalUrl": "https://www.youtube.com/watch?v=z2nPYPhmx7U"
     },
     {
@@ -2074,6 +2168,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:43:53.773Z",
+      "lastCheckedAt": "2026-08-05T13:43:53.773Z",
       "originalUrl": "https://www.youtube.com/watch?v=Ndq4XnPSoeY"
     },
     {
@@ -2096,6 +2191,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:44:04.460Z",
+      "lastCheckedAt": "2026-08-05T13:44:04.460Z",
       "originalUrl": "https://www.youtube.com/watch?v=qKUM6eigwRg"
     },
     {
@@ -2118,6 +2214,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:44:13.974Z",
+      "lastCheckedAt": "2026-08-05T13:44:13.974Z",
       "originalUrl": "https://www.youtube.com/watch?v=YCFNnwAPr14"
     },
     {
@@ -2140,6 +2237,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:44:27.986Z",
+      "lastCheckedAt": "2026-08-05T13:44:27.986Z",
       "originalUrl": "https://www.youtube.com/watch?v=k6TvZbKNniw"
     },
     {
@@ -2162,6 +2260,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:44:37.506Z",
+      "lastCheckedAt": "2026-08-05T13:44:37.506Z",
       "originalUrl": "https://www.youtube.com/watch?v=zLsFboO1Or8"
     },
     {
@@ -2184,6 +2283,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:44:48.533Z",
+      "lastCheckedAt": "2026-08-05T13:44:48.533Z",
       "originalUrl": "https://www.youtube.com/watch?v=G8V1VWrNo00"
     },
     {
@@ -2206,6 +2306,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:44:58.148Z",
+      "lastCheckedAt": "2026-08-05T13:44:58.148Z",
       "originalUrl": "https://www.youtube.com/watch?v=nA8lKRg6t9o"
     },
     {
@@ -2228,6 +2329,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:45:07.725Z",
+      "lastCheckedAt": "2026-08-05T13:45:07.725Z",
       "originalUrl": "https://www.youtube.com/watch?v=LyVHwqfHhBs"
     },
     {
@@ -2250,6 +2352,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:45:16.218Z",
+      "lastCheckedAt": "2026-08-05T13:45:16.218Z",
       "originalUrl": "https://www.youtube.com/watch?v=uHm53fVZigo"
     },
     {
@@ -2272,6 +2375,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:45:33.702Z",
+      "lastCheckedAt": "2026-08-05T13:45:33.702Z",
       "originalUrl": "https://www.youtube.com/watch?v=ofLS1Upj_A8"
     },
     {
@@ -2294,6 +2398,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:45:42.969Z",
+      "lastCheckedAt": "2026-08-05T13:45:42.969Z",
       "originalUrl": "https://www.youtube.com/watch?v=13HNwLmcOSA"
     },
     {
@@ -2316,6 +2421,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "partial",
       "archivedAt": "2026-08-05T13:46:16.079Z",
+      "lastCheckedAt": "2026-08-05T13:46:16.079Z",
       "originalUrl": "https://www.youtube.com/watch?v=GpWoiD3iX2c"
     },
     {
@@ -2338,6 +2444,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:46:26.712Z",
+      "lastCheckedAt": "2026-08-05T13:46:26.712Z",
       "originalUrl": "https://www.youtube.com/watch?v=UbONESg1SjU"
     },
     {
@@ -2360,6 +2467,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:02.713Z",
+      "lastCheckedAt": "2026-08-05T13:47:02.713Z",
       "originalUrl": "https://www.youtube.com/watch?v=xNWhfYLBCMA"
     },
     {
@@ -2382,6 +2490,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:11.529Z",
+      "lastCheckedAt": "2026-08-05T13:47:11.529Z",
       "originalUrl": "https://www.youtube.com/watch?v=BPjX9734C6w"
     },
     {
@@ -2404,6 +2513,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:20.335Z",
+      "lastCheckedAt": "2026-08-05T13:47:20.335Z",
       "originalUrl": "https://www.youtube.com/watch?v=YNE8sBD33Uw"
     },
     {
@@ -2426,6 +2536,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:29.106Z",
+      "lastCheckedAt": "2026-08-05T13:47:29.106Z",
       "originalUrl": "https://www.youtube.com/watch?v=zlANTL0ugKI"
     },
     {
@@ -2448,6 +2559,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:38.400Z",
+      "lastCheckedAt": "2026-08-05T13:47:38.400Z",
       "originalUrl": "https://www.youtube.com/watch?v=olvHOJixhk4"
     },
     {
@@ -2470,6 +2582,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:48.358Z",
+      "lastCheckedAt": "2026-08-05T13:47:48.358Z",
       "originalUrl": "https://www.youtube.com/watch?v=yNsoeGMqFYQ"
     },
     {
@@ -2492,6 +2605,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:47:58.506Z",
+      "lastCheckedAt": "2026-08-05T13:47:58.506Z",
       "originalUrl": "https://www.youtube.com/watch?v=27XEgVcTlhE"
     },
     {
@@ -2514,6 +2628,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:48:09.172Z",
+      "lastCheckedAt": "2026-08-05T13:48:09.172Z",
       "originalUrl": "https://www.youtube.com/watch?v=ttx1YowaMjE"
     },
     {
@@ -2536,6 +2651,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:48:17.372Z",
+      "lastCheckedAt": "2026-08-05T13:48:17.372Z",
       "originalUrl": "https://www.youtube.com/watch?v=4fPE5Eje9CM"
     },
     {
@@ -2558,6 +2674,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:48:26.750Z",
+      "lastCheckedAt": "2026-08-05T13:48:26.750Z",
       "originalUrl": "https://www.youtube.com/watch?v=JskFexDnHPg"
     },
     {
@@ -2580,6 +2697,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:48:36.311Z",
+      "lastCheckedAt": "2026-08-05T13:48:36.311Z",
       "originalUrl": "https://www.youtube.com/watch?v=6_RkDRpeMWQ"
     },
     {
@@ -2602,6 +2720,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:48:48.587Z",
+      "lastCheckedAt": "2026-08-05T13:48:48.587Z",
       "originalUrl": "https://www.youtube.com/watch?v=PwspY1wuaKQ"
     },
     {
@@ -2624,6 +2743,7 @@
       "archiveStatus": "partial",
       "commentsStatus": "partial",
       "archivedAt": "2026-08-05T13:49:00.533Z",
+      "lastCheckedAt": "2026-08-05T13:49:00.533Z",
       "originalUrl": "https://www.youtube.com/watch?v=AeweWFG3PD0"
     },
     {
@@ -2646,6 +2766,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:49:11.316Z",
+      "lastCheckedAt": "2026-08-05T13:49:11.316Z",
       "originalUrl": "https://www.youtube.com/watch?v=_XJL7ZalzkM"
     },
     {
@@ -2668,6 +2789,7 @@
       "archiveStatus": "complete",
       "commentsStatus": "complete",
       "archivedAt": "2026-08-05T13:49:22.440Z",
+      "lastCheckedAt": "2026-08-05T13:49:22.440Z",
       "originalUrl": "https://www.youtube.com/watch?v=XYfQJunPkuE"
     }
   ]

@@ -39,20 +39,28 @@ npm run archive
 
 The collector processes one video at a time and saves every completed result immediately. It reads both the top and newest comment orderings, merges entries by comment ID, and preserves comments found by earlier runs. It can be stopped with `Ctrl+C` and resumed with the same command.
 
+To periodically check YouTube's current reported totals, update the percentages on the site, and archive videos whose count has increased:
+
+```powershell
+npm run check:comments
+```
+
+This metadata check is lightweight for videos that are still at 100%. A video is crawled again only when YouTube reports more comments than the archive contains, or when its existing capture is below 100%.
+
 Useful options:
 
 ```powershell
 # Collect specific videos
 npm run archive -- --only=bFNq9iS4Xn4,HndF_Abg0sI
 
-# Refresh videos that are already considered complete
+# Force a full recrawl even when the reported count has not changed
 npm run archive -- --refresh
 
 # Save commenter profile pictures locally as well
 npm run archive -- --download-avatars
 ```
 
-YouTube sometimes stops returning continuation pages before its displayed total is reached. Those videos are labeled as partial rather than complete. Running the collector again can recover more comments without removing anything already preserved.
+YouTube sometimes stops returning continuation pages before its displayed total is reached. The site shows the percentage of the reported comments preserved. Running the collector again can recover more comments without removing anything already preserved.
 
 ## Preview locally
 

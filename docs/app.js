@@ -8,8 +8,9 @@ let archiveIndex;
 
 try {
   archiveIndex = await fetchJson("./data/index.json");
-  snapshotLabel.textContent = archiveIndex.lastArchivedAt
-    ? `snapshot · ${formatDate(archiveIndex.lastArchivedAt)}`
+  const snapshotDate = archiveIndex.lastCheckedAt ?? archiveIndex.lastArchivedAt;
+  snapshotLabel.textContent = snapshotDate
+    ? `snapshot · ${formatDate(snapshotDate)}`
     : "archive awaiting capture";
   await route();
 } catch (error) {
@@ -116,7 +117,7 @@ async function renderVideo(id) {
           </div>
         </section>
         <section class="comments-section">
-          <div class="comments-heading"><h2>Comments</h2><span>${formatFull(totalComments)} preserved</span></div>
+          <div class="comments-heading"><h2>Comments</h2><span>${formatFull(totalComments)} preserved${archivePercentage ? ` · ${archivePercentage} archived` : ""}</span></div>
           ${summary.archiveStatus === "partial" ? `<p class="notice">${archivePercentage ? `${archivePercentage} of YouTube's reported comments are archived. ` : ""}${formatFull(totalComments)} comments and replies are safely preserved; YouTube reports approximately ${formatFull(video.statistics.commentCount)} on the original video. Running the collector again may recover more without removing these.</p>` : ""}
           <div class="controls comment-controls">
             <label class="search-wrap"><span class="visually-hidden">Search comments</span><input id="comment-search" type="search" placeholder="Search comments or authors…" autocomplete="off"></label>
@@ -241,7 +242,7 @@ function videoCard(video) {
     video.archivedComments,
     video.statistics?.commentCount,
   );
-  const statusLabel = status === "partial" && archivePercentage
+  const statusLabel = archivePercentage
     ? `${archivePercentage} archived`
     : status;
   card.innerHTML = `
@@ -249,7 +250,7 @@ function videoCard(video) {
       <div class="thumbnail-wrap">
         <img class="thumbnail" src="${escapeAttribute(assetUrl(video.thumbnail) ?? fallbackThumbnail(video.id))}" alt="" loading="lazy">
         ${video.duration ? `<span class="duration">${formatDuration(video.duration)}</span>` : ""}
-        ${status !== "archived" ? `<span class="status-pill">${escapeHtml(statusLabel)}</span>` : ""}
+        ${status !== "archived" || archivePercentage ? `<span class="status-pill">${escapeHtml(statusLabel)}</span>` : ""}
       </div>
       <div class="card-copy">
         <h3>${escapeHtml(video.title)}</h3>
@@ -310,9 +311,10 @@ function formatFull(value) {
 }
 
 function formatArchivePercentage(archived, reported) {
+  if (reported === null || reported === undefined) return null;
   const archivedCount = numeric(archived);
   const reportedCount = numeric(reported);
-  if (reportedCount <= 0) return null;
+  if (reportedCount <= 0) return archivedCount === 0 ? percentFormat.format(1) : null;
   return percentFormat.format(Math.min(archivedCount / reportedCount, 1));
 }
 

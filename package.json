@@ -8,6 +8,7 @@
     "setup:comments": "node scripts/setup-yt-dlp.mjs",
     "import": "node scripts/import-list.mjs video-list.txt",
     "archive": "node scripts/archive.mjs",
+    "check:comments": "node scripts/archive.mjs --check",
     "build:index": "node scripts/build-pending-index.mjs",
     "serve": "node scripts/serve.mjs",
     "test": "node --test"

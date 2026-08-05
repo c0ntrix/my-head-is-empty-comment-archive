@@ -87,6 +87,7 @@ export function publicVideoSummary(video) {
     archiveStatus: commentsArePartial ? "partial" : video.archiveStatus,
     commentsStatus: video.commentsStatus ?? null,
     archivedAt: video.archivedAt ?? null,
+    lastCheckedAt: video.lastCheckedAt ?? video.archivedAt ?? null,
     originalUrl: video.originalUrl ?? `https://www.youtube.com/watch?v=${video.id}`,
   };
 }
@@ -111,16 +112,19 @@ export async function rebuildIndex(sourceVideos) {
         archiveStatus: "pending",
         commentsStatus: null,
         archivedAt: null,
+        lastCheckedAt: null,
         originalUrl: source.url,
       });
     }
   }
 
   const archivedDates = items.map((item) => item.archivedAt).filter(Boolean).sort();
+  const checkedDates = items.map((item) => item.lastCheckedAt).filter(Boolean).sort();
   const index = {
     schemaVersion: 1,
     generatedAt: new Date().toISOString(),
     lastArchivedAt: archivedDates.at(-1) ?? null,
+    lastCheckedAt: checkedDates.at(-1) ?? null,
     totals: {
       videos: items.length,
       archived: items.filter((item) => ["complete", "partial"].includes(item.archiveStatus)).length,
