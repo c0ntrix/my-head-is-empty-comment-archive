@@ -33,6 +33,13 @@ function renderIndex() {
     <section class="hero">
       <h1>my head is empty archive</h1>
       <p class="hero-note">An archive of <em>my head is empty</em> videos that will sadly be deleted, preserving the meaningful comments, diaries, love, and support people shared beneath them.</p>
+      <div class="archive-download">
+        <a class="download-button" href="https://github.com/c0ntrix/my-head-is-empty-comment-archive/archive/refs/heads/main.zip" aria-label="Download a complete copy of the comment archive as a ZIP file">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2"/></svg>
+          Download the archive
+        </a>
+        <p>Save a complete ZIP copy of the preserved comments, metadata, thumbnails, and website.</p>
+      </div>
     </section>
     <section class="archive-stats" aria-label="Archive totals">
       ${stat(archiveIndex.totals.videos, "videos")}
