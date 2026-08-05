@@ -107,11 +107,11 @@ async function renderVideo(id) {
             <p class="eyebrow">archived ${formatDate(video.archivedAt)}</p>
             <h1>${escapeHtml(video.title)}</h1>
             <p class="channel">${escapeHtml(video.channelTitle ?? "Unknown channel")} · ${formatDate(video.publishedAt)}</p>
-            <div class="metric-row">
-              <span>${formatFull(video.statistics.viewCount)} views</span>
-              <span>${formatFull(video.statistics.likeCount)} likes</span>
-              <span>${formatFull(video.statistics.commentCount)} comments on YouTube</span>
-              <span>${formatFull(totalComments)} archived comments</span>
+            <div class="video-metrics" aria-label="Video statistics">
+              <div><strong>${formatFull(video.statistics.viewCount)}</strong><span>views</span></div>
+              <div><strong>${formatFull(video.statistics.likeCount)}</strong><span>likes</span></div>
+              <div><strong>${formatFull(video.statistics.commentCount)}</strong><span>YouTube comments</span></div>
+              <div><strong>${formatFull(totalComments)}</strong><span>archived comments</span></div>
             </div>
             ${video.description ? `<p class="description" id="description">${escapeHtml(video.description)}</p><button class="text-button" id="toggle-description">show full description</button>` : ""}
             <br><a class="original-link" href="${escapeAttribute(video.originalUrl)}" target="_blank" rel="noopener noreferrer">Original YouTube page ↗</a>
