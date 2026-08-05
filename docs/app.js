@@ -2,6 +2,7 @@ const app = document.querySelector("#app");
 const snapshotLabel = document.querySelector("#snapshot-label");
 const numberFormat = new Intl.NumberFormat(undefined, { notation: "compact", maximumFractionDigits: 1 });
 const fullNumberFormat = new Intl.NumberFormat();
+const percentFormat = new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 1 });
 const dateFormat = new Intl.DateTimeFormat(undefined, { dateStyle: "medium" });
 let archiveIndex;
 
@@ -95,6 +96,7 @@ async function renderVideo(id) {
     document.title = `${video.title} — Comment archive`;
     const replies = video.comments.reduce((total, thread) => total + thread.replies.length, 0);
     const totalComments = video.comments.length + replies;
+    const archivePercentage = formatArchivePercentage(totalComments, video.statistics.commentCount);
     app.innerHTML = `
       <article class="detail">
         <a class="back-link" href="./">← all videos</a>
@@ -115,7 +117,7 @@ async function renderVideo(id) {
         </section>
         <section class="comments-section">
           <div class="comments-heading"><h2>Comments</h2><span>${formatFull(totalComments)} preserved</span></div>
-          ${summary.archiveStatus === "partial" ? `<p class="notice">This is a partial capture. ${formatFull(totalComments)} comments and replies are safely archived so far; YouTube reports approximately ${formatFull(video.statistics.commentCount)} on the original video. Running the collector again may recover more without removing these.</p>` : ""}
+          ${summary.archiveStatus === "partial" ? `<p class="notice">This is a partial capture${archivePercentage ? ` (${archivePercentage} archived)` : ""}. ${formatFull(totalComments)} comments and replies are safely archived so far; YouTube reports approximately ${formatFull(video.statistics.commentCount)} on the original video. Running the collector again may recover more without removing these.</p>` : ""}
           <div class="controls comment-controls">
             <label class="search-wrap"><span class="visually-hidden">Search comments</span><input id="comment-search" type="search" placeholder="Search comments or authors…" autocomplete="off"></label>
             <label><span class="visually-hidden">Sort comments</span><select id="comment-sort"><option value="likes">Most liked</option><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="archive">Original order</option></select></label>
@@ -235,12 +237,19 @@ function commentNode(comment, isReply = false) {
 function videoCard(video) {
   const card = element("article", "video-card");
   const status = video.archiveStatus === "complete" ? "archived" : video.archiveStatus;
+  const archivePercentage = formatArchivePercentage(
+    video.archivedComments,
+    video.statistics?.commentCount,
+  );
+  const statusLabel = status === "partial" && archivePercentage
+    ? `partial · ${archivePercentage}`
+    : status;
   card.innerHTML = `
     <a class="card-link" href="?v=${encodeURIComponent(video.id)}">
       <div class="thumbnail-wrap">
         <img class="thumbnail" src="${escapeAttribute(assetUrl(video.thumbnail) ?? fallbackThumbnail(video.id))}" alt="" loading="lazy">
         ${video.duration ? `<span class="duration">${formatDuration(video.duration)}</span>` : ""}
-        ${status !== "archived" ? `<span class="status-pill">${escapeHtml(status)}</span>` : ""}
+        ${status !== "archived" ? `<span class="status-pill">${escapeHtml(statusLabel)}</span>` : ""}
       </div>
       <div class="card-copy">
         <h3>${escapeHtml(video.title)}</h3>
@@ -298,6 +307,13 @@ function formatCompact(value) {
 
 function formatFull(value) {
   return value === null || value === undefined ? "—" : fullNumberFormat.format(numeric(value));
+}
+
+function formatArchivePercentage(archived, reported) {
+  const archivedCount = numeric(archived);
+  const reportedCount = numeric(reported);
+  if (reportedCount <= 0) return null;
+  return percentFormat.format(Math.min(archivedCount / reportedCount, 1));
 }
 
 function numeric(value) {
