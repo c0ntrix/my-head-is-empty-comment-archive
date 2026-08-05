@@ -59,8 +59,107 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:18.304Z",
-  "archivedAt": "2026-08-05T11:34:18.304Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:28:57.272Z",
+  "comments": [
+    {
+      "id": "Ugx5ujukbn-ybzoZFRF4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@CharlesKanda",
+        "channelUrl": "https://www.youtube.com/@CharlesKanda",
+        "channelId": "UCqJEwUgcp5XMMUeVImVmQSA",
+        "profileImageUrl": "https://yt3.ggpht.com/dqGoCw0ZauEowNcO8vmLez_2xpvM6orDsQif4xA9mIKAkuS6KOKq_6XtnCtuZBG1u4Prf-9YPRM=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "why is this not getting alot of likes wth this song makes my night so calm and peaceful\ngod bless u bro",
+      "likeCount": 2,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 3,
+      "replies": [
+        {
+          "id": "Ugx5ujukbn-ybzoZFRF4AaABAg.9xOkWtjh2889yqiFGCJcBW",
+          "parentId": "Ugx5ujukbn-ybzoZFRF4AaABAg",
+          "author": {
+            "name": "@Abigail_kawaii",
+            "channelUrl": "https://www.youtube.com/@Abigail_kawaii",
+            "channelId": "UCFvLeHdUNrCjo3S2SWy5S8g",
+            "profileImageUrl": "https://yt3.ggpht.com/wM38uSqdrP5tjnx7q2oBugDju4S9iUP1KCPbmfrNz0UTZ2eSrseUes_XEJvLJVc9gvZrFtwYsA=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "So true",
+          "likeCount": 1,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 0
+        },
+        {
+          "id": "Ugx5ujukbn-ybzoZFRF4AaABAg.9xOkWtjh288A1Mf04l2Yd7",
+          "parentId": "Ugx5ujukbn-ybzoZFRF4AaABAg",
+          "author": {
+            "name": "@oneauto9536",
+            "channelUrl": "https://www.youtube.com/@oneauto9536",
+            "channelId": "UCWOX1ST9I0aPLy-2Xe2Vkwg",
+            "profileImageUrl": "https://yt3.ggpht.com/_Hes2DCALzqCw07CfI7zrdO3B8wCCLIwdjSr_nik0SRNNRgBO5fSSu1HSFPEpElRd0CjXvvJ=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "Some people just listening from Apple Music,Spotify or SoundCloud",
+          "likeCount": 0,
+          "publishedAt": "2024-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "2 years ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 1
+        },
+        {
+          "id": "Ugx5ujukbn-ybzoZFRF4AaABAg.9xOkWtjh288AH36Uwicm3R",
+          "parentId": "Ugx5ujukbn-ybzoZFRF4AaABAg",
+          "author": {
+            "name": "@Jas-iWISHiWAS",
+            "channelUrl": "https://www.youtube.com/@Jas-iWISHiWAS",
+            "channelId": "UCx5XjVS-dmjoewTOOfW-uqw",
+            "profileImageUrl": "https://yt3.ggpht.com/oYQgB3XnTPVuYAARODnicqjv94Re3q3X-C58RtjXTDYKp9a5ZzN3jDy_808nOIjzX9WJ0HQA=s88-c-k-c0x00ffffff-no-rj",
+            "avatar": null,
+            "isUploader": false,
+            "isVerified": false
+          },
+          "text": "they are underrated",
+          "likeCount": 0,
+          "publishedAt": "2025-08-06T00:00:00.000Z",
+          "relativeTimeAtArchive": "1 year ago",
+          "updatedAt": null,
+          "viewerRating": null,
+          "moderationStatus": null,
+          "isPinned": false,
+          "isFavorited": false,
+          "archiveOrder": 2
+        }
+      ]
+    }
+  ]
 }

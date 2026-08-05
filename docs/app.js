@@ -125,13 +125,13 @@ async function renderVideo(id) {
       </article>`;
     interceptInternalLinks();
     setupDescriptionToggle();
-    setupComments(video.comments, video.commentsStatus);
+    setupComments(video.comments, video.commentsStatus, video.statistics.commentCount);
   } catch (error) {
     renderError("This video's archived data could not be loaded.", error);
   }
 }
 
-function setupComments(allComments, status) {
+function setupComments(allComments, status, reportedCommentCount) {
   const search = document.querySelector("#comment-search");
   const sort = document.querySelector("#comment-sort");
   const results = document.querySelector("#comment-results");
@@ -155,7 +155,12 @@ function setupComments(allComments, status) {
     list.append(...comments.slice(0, visible).map(commentThread));
     results.replaceChildren(list);
     if (!comments.length) {
-      const text = status === "disabled" ? "Comments were disabled when this snapshot was taken." : "No archived comments match this search.";
+      let text = "No archived comments match this search.";
+      if (!query && status === "disabled" && numeric(reportedCommentCount) > 0) {
+        text = `YouTube reports approximately ${formatFull(reportedCommentCount)} comments, but its public API would not return them. No comments have been captured for this video yet.`;
+      } else if (!query && status === "disabled") {
+        text = "No comments were available to archive when this snapshot was taken.";
+      }
       results.replaceChildren(element("p", "notice", text));
     } else if (visible < comments.length) {
       const more = element("button", "load-more", `Show more · ${comments.length - visible} remaining`);

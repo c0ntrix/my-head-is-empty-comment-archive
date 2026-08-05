@@ -59,8 +59,91 @@
     "favoriteCount": 0
   },
   "archiveStatus": "complete",
-  "commentsStatus": "disabled",
+  "commentsStatus": "complete",
+  "commentsSource": "youtube-web-via-yt-dlp",
   "firstArchivedAt": "2026-08-05T11:34:18.067Z",
-  "archivedAt": "2026-08-05T11:34:18.067Z",
-  "comments": []
+  "archivedAt": "2026-08-05T13:28:47.655Z",
+  "comments": [
+    {
+      "id": "UgxbRWBpaGibsmj0k-14AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@AndreonLong",
+        "channelUrl": "https://www.youtube.com/@AndreonLong",
+        "channelId": "UCe8JV7OnNJSwxtdSQT2UPgg",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_km0fqYP8CB-6_v6FaXZQMFgZ7bf9jEP8B0BMXON2Oq6Spn=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "This is \"When it's safe to feel again\" after Numb. I'm still in love with Numb. 💙💙💙",
+      "likeCount": 1,
+      "publishedAt": "2025-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "1 year ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 0,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "UgwXC0qoSBC6zqzNr_B4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@antaeku8038",
+        "channelUrl": "https://www.youtube.com/@antaeku8038",
+        "channelId": "UCRpmQJNdcSOM93s6x7h6b6g",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k_e-7PLdwQ1hRxJDOXsQmKU4mb8sx6mN-6krLkOBSMnT0=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "This creats an empty feeling",
+      "likeCount": 2,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 1,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    },
+    {
+      "id": "Ugy0QAJMA7zxHk6faVh4AaABAg",
+      "parentId": null,
+      "author": {
+        "name": "@ravinum460",
+        "channelUrl": "https://www.youtube.com/@ravinum460",
+        "channelId": "UCUlycnA9-dSHjYmTgD0XYSg",
+        "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nkRlIiUq9lb-w-nOUk8M2E0z3DgzKxd8JwMRZl0zye9JQ=s88-c-k-c0x00ffffff-no-rj",
+        "avatar": null,
+        "isUploader": false,
+        "isVerified": false
+      },
+      "text": "real",
+      "likeCount": 1,
+      "publishedAt": "2024-08-06T00:00:00.000Z",
+      "relativeTimeAtArchive": "2 years ago",
+      "updatedAt": null,
+      "viewerRating": null,
+      "moderationStatus": null,
+      "isPinned": false,
+      "isFavorited": false,
+      "archiveOrder": 2,
+      "canReply": null,
+      "isPublic": true,
+      "totalReplyCountAtArchive": 0,
+      "replies": []
+    }
+  ]
 }
