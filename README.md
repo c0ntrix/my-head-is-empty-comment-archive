@@ -1,6 +1,6 @@
 # my head is empty comment archive
 
-[GitHub repository](https://github.com/c0ntrix/comment-archive-my-head-is-empty)
+[View the hosted comment archive](https://c0ntrix.github.io/my-head-is-empty-comment-archive/)
 
 A static archive of public comments, replies, thumbnails, and video metadata from 121 `my head is empty` videos scheduled for deletion. No video or audio is downloaded.
 
