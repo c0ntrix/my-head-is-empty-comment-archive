@@ -110,7 +110,8 @@ async function renderVideo(id) {
             <div class="metric-row">
               <span>${formatFull(video.statistics.viewCount)} views</span>
               <span>${formatFull(video.statistics.likeCount)} likes</span>
-              <span>${formatFull(totalComments)} saved comments</span>
+              <span>${formatFull(video.statistics.commentCount)} comments on YouTube</span>
+              <span>${formatFull(totalComments)} archived comments</span>
             </div>
             ${video.description ? `<p class="description" id="description">${escapeHtml(video.description)}</p><button class="text-button" id="toggle-description">show full description</button>` : ""}
             <br><a class="original-link" href="${escapeAttribute(video.originalUrl)}" target="_blank" rel="noopener noreferrer">Original YouTube page ↗</a>
