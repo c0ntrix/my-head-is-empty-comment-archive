@@ -10,6 +10,7 @@
     "archive": "node scripts/archive.mjs",
     "check:comments": "node scripts/archive.mjs --check",
     "build:index": "node scripts/build-pending-index.mjs",
+    "export:comments": "node scripts/export-comments.mjs",
     "serve": "node scripts/serve.mjs",
     "test": "node --test"
   },

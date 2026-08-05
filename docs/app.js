@@ -33,12 +33,15 @@ function renderIndex() {
     <section class="hero">
       <h1>my head is empty archive</h1>
       <p class="hero-note">An archive of <em>my head is empty</em> videos that will sadly be deleted, preserving the meaningful comments, diaries, love, and support people shared beneath them.</p>
-      <div class="archive-download">
-        <a class="download-button" href="https://github.com/c0ntrix/my-head-is-empty-comment-archive/archive/refs/heads/main.zip" aria-label="Download a complete copy of the comment archive as a ZIP file">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2"/></svg>
-          Download the archive
+      <div class="archive-downloads" aria-label="Archive downloads">
+        <a class="download-option download-option-primary" href="https://github.com/c0ntrix/my-head-is-empty-comment-archive/archive/refs/heads/main.zip" aria-label="Download the complete archive as a ZIP file">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h16v12.25A1.25 1.25 0 0 1 18.75 21H5.25A1.25 1.25 0 0 1 4 19.75V7.5ZM3 3h18v4.5H3V3Zm6 9h6"/></svg>
+          <span><strong>Download complete archive</strong><small>All preserved data, thumbnails, and website files · ZIP</small></span>
         </a>
-        <p>Save a complete ZIP copy of the preserved comments, metadata, thumbnails, and website.</p>
+        <a class="download-option" href="./downloads/my-head-is-empty-comments.txt" download="my-head-is-empty-comments.txt" aria-label="Download all preserved comments as a readable text file">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Zm8 0v5h4M9 12h6m-6 4h6"/></svg>
+          <span><strong>Download readable comments</strong><small>Easy to open, read, and search · TXT</small></span>
+        </a>
       </div>
     </section>
     <section class="archive-stats" aria-label="Archive totals">

@@ -4,6 +4,14 @@
 
 A static archive of public comments, replies, thumbnails, and video metadata from 121 `my head is empty` videos scheduled for deletion. No video or audio is downloaded.
 
+The site offers two downloads: a complete ZIP snapshot for preservation and a readable UTF-8 text export of every archived comment and reply. Regenerate the text file at any time with:
+
+```powershell
+npm run export:comments
+```
+
+The regular archive and index-building commands also refresh this export when they finish.
+
 ## Requirements
 
 - Node.js 20 or newer
@@ -76,6 +84,7 @@ Open <http://localhost:8080>. Opening `docs/index.html` directly will not work b
 - `docs/data/index.json` — site index and archive totals
 - `docs/data/videos/` — one archived JSON document per video
 - `docs/assets/thumbnails/` — locally saved video thumbnails
+- `docs/downloads/my-head-is-empty-comments.txt` — readable text export of all comments and replies
 - `docs/` — complete static website
 
 To import a different plain-text list containing YouTube links:

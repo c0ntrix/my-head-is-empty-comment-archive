@@ -16,6 +16,7 @@ import {
   VIDEO_DATA_DIR,
   writeJsonAtomic,
 } from "./lib.mjs";
+import { writeReadableCommentsExport } from "./comments-export.mjs";
 
 const API_ROOT = "https://www.googleapis.com/youtube/v3";
 const args = new Set(process.argv.slice(2));
@@ -171,6 +172,7 @@ for (const source of sources) {
 }
 
 const index = await rebuildIndex(allSources);
+await writeReadableCommentsExport(index);
 console.log(
   `Done. ${index.totals.archived}/${index.totals.videos} videos and ${index.totals.comments} comments/replies are in docs/.`,
 );

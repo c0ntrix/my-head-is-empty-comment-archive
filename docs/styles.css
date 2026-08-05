@@ -103,33 +103,42 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
 
 .hero-note em { font-style: italic; }
 
-.archive-download {
-  display: flex;
-  gap: 16px;
-  align-items: center;
+.archive-downloads {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
   margin-top: 32px;
 }
 
-.download-button {
+.download-option {
   display: inline-flex;
-  flex: 0 0 auto;
-  gap: 9px;
+  gap: 13px;
   align-items: center;
-  min-height: 46px;
-  padding: 0 18px;
+  min-height: 72px;
+  padding: 13px 16px;
+  border: 1px solid var(--border-dark);
   border-radius: 4px;
-  background: var(--accent);
-  color: white;
-  font-size: 14px;
-  font-weight: 620;
+  background: var(--surface);
   text-decoration: none;
 }
 
-.download-button:hover { background: #284d36; }
+.download-option:hover { border-color: var(--text); }
 
-.download-button svg {
-  width: 18px;
-  height: 18px;
+.download-option-primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+.download-option-primary:hover {
+  border-color: #284d36;
+  background: #284d36;
+}
+
+.download-option svg {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -137,13 +146,23 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
   stroke-width: 1.8;
 }
 
-.archive-download p {
-  max-width: 410px;
-  margin: 0;
-  color: var(--secondary);
-  font-size: 13px;
-  line-height: 1.45;
+.download-option span,
+.download-option strong,
+.download-option small { display: block; }
+
+.download-option strong {
+  font-size: 14px;
+  font-weight: 620;
 }
+
+.download-option small {
+  margin-top: 3px;
+  color: var(--secondary);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.download-option-primary small { color: rgba(255, 255, 255, .78); }
 
 .archive-stats {
   display: grid;
@@ -584,8 +603,7 @@ footer {
   .brand { display: block; }
   .brand-secondary { display: block; margin-top: 1px; }
   .hero { padding: 62px 0 52px; }
-  .archive-download { display: block; }
-  .archive-download p { margin-top: 11px; }
+  .archive-downloads { grid-template-columns: 1fr; }
   .archive-stats { grid-template-columns: 1fr; gap: 14px; }
   .stat + .stat { padding-top: 14px; padding-left: 0; border-top: 1px solid var(--border); border-left: 0; }
   .controls { grid-template-columns: 1fr; }
