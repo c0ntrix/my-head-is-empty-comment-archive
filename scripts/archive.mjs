@@ -33,6 +33,21 @@ if (!apiKey) {
     "YOUTUBE_API_KEY is missing. Copy .env.example to .env and add your YouTube Data API v3 key.",
   );
 }
+const commentExtractorRetries = readPositiveIntegerEnvironmentVariable(
+  "YOUTUBE_COMMENT_RETRIES",
+  12,
+);
+const commentRetrySleep = readNonNegativeNumberEnvironmentVariable(
+  "YOUTUBE_COMMENT_RETRY_SLEEP",
+  1,
+);
+const cookiesFromBrowser = process.env.YOUTUBE_COOKIES_FROM_BROWSER?.trim() || null;
+const cookiesFile = process.env.YOUTUBE_COOKIES_FILE?.trim() || null;
+if (cookiesFromBrowser && cookiesFile) {
+  throw new Error(
+    "Set only one of YOUTUBE_COOKIES_FROM_BROWSER or YOUTUBE_COOKIES_FILE.",
+  );
+}
 
 const allSources = await readJson(SOURCE_FILE);
 const sources = only ? allSources.filter((video) => only.has(video.id)) : allSources;
@@ -329,6 +344,15 @@ async function fetchCommentsWithYtDlp(source) {
       `node:${process.execPath}`,
       "--sleep-requests",
       process.env.YOUTUBE_WEB_REQUEST_DELAY ?? "0.25",
+      "--extractor-retries",
+      String(commentExtractorRetries),
+      "--retry-sleep",
+      `extractor:${commentRetrySleep}`,
+      ...(cookiesFromBrowser
+        ? ["--cookies-from-browser", cookiesFromBrowser]
+        : cookiesFile
+          ? ["--cookies", path.resolve(ROOT, cookiesFile)]
+          : []),
       "--skip-download",
       "--write-info-json",
       "--write-comments",
@@ -340,11 +364,16 @@ async function fetchCommentsWithYtDlp(source) {
       source.url,
     ];
     try {
-      await runYtDlpWithProgress(
+      const { abandonedContinuations } = await runYtDlpWithProgress(
         executable.command,
         [...executable.prefix, ...commandArgs],
         sort,
       );
+      if (abandonedContinuations > 0) {
+        console.warn(
+          `  YouTube still withheld ${abandonedContinuations} ${sort} comment continuation(s) after ${commentExtractorRetries} retries.`,
+        );
+      }
       const info = await readJson(infoFile);
       reportedCount = Math.max(reportedCount, Number(info.comment_count ?? 0));
       for (const comment of info.comments ?? []) allById.set(comment.id, comment);
@@ -437,6 +466,7 @@ function runYtDlpWithProgress(command, commandArgs, sort) {
     let current = 0;
     let total = 0;
     let lastDisplay = "";
+    let abandonedContinuations = 0;
 
     const render = () => {
       const width = 28;
@@ -466,6 +496,9 @@ function runYtDlpWithProgress(command, commandArgs, sort) {
       if (estimated || pageProgress || extracted) render();
 
       if (isErrorOutput && /^(?:WARNING|ERROR):/.test(line)) {
+        if (/Incomplete data received\. Giving up/i.test(line)) {
+          abandonedContinuations += 1;
+        }
         process.stdout.write("\r\x1b[2K");
         console.warn(`  ${line}`);
         render();
@@ -484,12 +517,31 @@ function runYtDlpWithProgress(command, commandArgs, sort) {
       if (code === 0) {
         const suffix = total > 0 ? ` of about ${total.toLocaleString()}` : "";
         console.log(`  ${sort} pass finished: ${current.toLocaleString()}${suffix} comments read.`);
-        resolve();
+        resolve({ abandonedContinuations });
       } else {
         reject(new Error(`${path.basename(command)} exited with code ${code}`));
       }
     });
   });
+}
+
+function readPositiveIntegerEnvironmentVariable(name, fallback) {
+  const rawValue = process.env[name];
+  if (rawValue === undefined || rawValue === "") return fallback;
+  if (!/^[1-9]\d*$/.test(rawValue)) {
+    throw new Error(`${name} must be a positive integer.`);
+  }
+  return Number(rawValue);
+}
+
+function readNonNegativeNumberEnvironmentVariable(name, fallback) {
+  const rawValue = process.env[name];
+  if (rawValue === undefined || rawValue === "") return fallback;
+  const value = Number(rawValue);
+  if (!Number.isFinite(value) || value < 0) {
+    throw new Error(`${name} must be a non-negative number.`);
+  }
+  return value;
 }
 
 function mapYtDlpComments(flatComments) {

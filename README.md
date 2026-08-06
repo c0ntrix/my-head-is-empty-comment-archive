@@ -45,7 +45,7 @@ The supplied links are YouTube Music/Topic releases. Their public comment counts
 npm run archive
 ```
 
-The collector processes one video at a time and saves every completed result immediately. It reads both the top and newest comment orderings, merges entries by comment ID, and preserves comments found by earlier runs. It can be stopped with `Ctrl+C` and resumed with the same command.
+The collector processes one video at a time and saves every completed result immediately. It reads both the top and newest comment orderings, merges entries by comment ID, and preserves comments found by earlier runs. It also retries incomplete YouTube reply pages with a short delay instead of immediately abandoning them. It can be stopped with `Ctrl+C` and resumed with the same command.
 
 To periodically check YouTube's current reported totals, update the percentages on the site, and archive videos whose count has increased:
 
@@ -68,7 +68,11 @@ npm run archive -- --refresh
 npm run archive -- --download-avatars
 ```
 
-YouTube sometimes stops returning continuation pages before its displayed total is reached. The site shows the percentage of the reported comments preserved. Running the collector again can recover more comments without removing anything already preserved.
+YouTube sometimes stops returning continuation pages before its displayed total is reached. The site shows the percentage of the reported comments preserved. Running the collector again can recover more comments without removing anything already preserved. The retry count and delay can be adjusted with `YOUTUBE_COMMENT_RETRIES` and `YOUTUBE_COMMENT_RETRY_SLEEP` in `.env`; the defaults are 12 attempts and one second.
+
+If the same continuation pages fail consistently, the fallback can make an authenticated attempt using an existing Firefox session. Add `YOUTUBE_COOKIES_FROM_BROWSER=firefox` to `.env` and rerun the affected video. Cookies remain in the browser profile and are not written to the archive. Direct Chrome and Edge cookie extraction generally fails on Windows because Chromium uses App-Bound encryption.
+
+For a Chromium session, follow yt-dlp's [YouTube cookie export instructions](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies), save the Netscape-format file as `.cache/youtube-cookies.txt`, replace the browser setting in `.env` with `YOUTUBE_COOKIES_FILE=.cache/youtube-cookies.txt`, and rerun the video. The `.cache` directory is ignored by Git. Set only one cookie option at a time.
 
 ## Preview locally
 

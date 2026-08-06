@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T21:53:13.430Z",
-  "lastArchivedAt": "2026-08-05T21:34:25.897Z",
-  "lastCheckedAt": "2026-08-05T21:53:12.913Z",
+  "generatedAt": "2026-08-06T00:36:33.893Z",
+  "lastArchivedAt": "2026-08-06T00:36:33.417Z",
+  "lastCheckedAt": "2026-08-06T00:36:33.417Z",
   "totals": {
     "videos": 121,
     "archived": 121,
-    "comments": 34799
+    "comments": 34800
   },
   "videos": [
     {
@@ -18,18 +18,18 @@
       "duration": "PT1M39S",
       "thumbnail": "assets/thumbnails/bFNq9iS4Xn4.jpg",
       "statistics": {
-        "viewCount": 14354296,
-        "likeCount": 304244,
+        "viewCount": 14356735,
+        "likeCount": 304291,
         "commentCount": 9114,
         "favoriteCount": 0
       },
-      "archivedComments": 8989,
-      "archivedTopLevelComments": 6799,
+      "archivedComments": 8990,
+      "archivedTopLevelComments": 6800,
       "archivedReplies": 2190,
       "archiveStatus": "partial",
       "commentsStatus": "partial",
-      "archivedAt": "2026-08-05T21:34:25.897Z",
-      "lastCheckedAt": "2026-08-05T21:34:25.897Z",
+      "archivedAt": "2026-08-06T00:36:33.417Z",
+      "lastCheckedAt": "2026-08-06T00:36:33.417Z",
       "originalUrl": "https://www.youtube.com/watch?v=bFNq9iS4Xn4"
     },
     {
