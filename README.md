@@ -53,7 +53,6 @@ To periodically check YouTube's current reported totals, update the percentages 
 npm run check:comments
 ```
 
-This metadata check is lightweight for videos that are still at 100%. A video is crawled again only when YouTube reports more comments than the archive contains, or when its existing capture is below 100%.
 
 Useful options:
 
@@ -68,7 +67,7 @@ npm run archive -- --refresh
 npm run archive -- --download-avatars
 ```
 
-YouTube sometimes stops returning continuation pages before its displayed total is reached. The site shows the percentage of the reported comments preserved. Running the collector again can recover more comments without removing anything already preserved. The retry count and delay can be adjusted with `YOUTUBE_COMMENT_RETRIES` and `YOUTUBE_COMMENT_RETRY_SLEEP` in `.env`; the defaults are 12 attempts and one second.
+YouTube sometimes stops returning continuation pages before its displayed total is reached. An affected video's page explains the difference and shows the percentage of the reported comments preserved; overview thumbnails stay uncluttered. Running the collector again can recover more comments without removing anything already preserved. The retry count and delay can be adjusted with `YOUTUBE_COMMENT_RETRIES` and `YOUTUBE_COMMENT_RETRY_SLEEP` in `.env`; the defaults are 12 attempts and one second.
 
 If the same continuation pages fail consistently, the fallback can make an authenticated attempt using an existing Firefox session. Add `YOUTUBE_COOKIES_FROM_BROWSER=firefox` to `.env` and rerun the affected video. Cookies remain in the browser profile and are not written to the archive. Direct Chrome and Edge cookie extraction generally fails on Windows because Chromium uses App-Bound encryption.
 

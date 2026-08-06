@@ -128,7 +128,7 @@ async function renderVideo(id) {
         </section>
         <section class="comments-section">
           <div class="comments-heading"><h2>Comments</h2><span>${formatFull(totalComments)} preserved${archivePercentage ? ` · ${archivePercentage} archived` : ""}</span></div>
-          ${summary.archiveStatus === "partial" ? `<p class="notice">This archive contains ${formatFull(totalComments)} comments and replies. ${archivePercentage ? `That is ${archivePercentage} of YouTube's reported total of about ${formatFull(video.statistics.commentCount)}. ` : ""}The difference can happen when new comments are added or when YouTube does not return every comment during archiving.</p>` : ""}
+          ${summary.archiveStatus === "partial" ? `<p class="notice">This archive preserves ${formatFull(totalComments)}${archivePercentage ? ` of about ${formatFull(video.statistics.commentCount)} comments and replies reported by YouTube (${archivePercentage})` : " comments and replies"}. The difference may reflect comments added later or comments YouTube did not return during archiving.</p>` : ""}
           <div class="controls comment-controls">
             <label class="search-wrap"><span class="visually-hidden">Search comments</span><input id="comment-search" type="search" placeholder="Search comments or authors…" autocomplete="off"></label>
             <label><span class="visually-hidden">Sort comments</span><select id="comment-sort"><option value="likes">Most liked</option><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="archive">Original order</option></select></label>
@@ -248,19 +248,13 @@ function commentNode(comment, isReply = false) {
 function videoCard(video) {
   const card = element("article", "video-card");
   const status = video.archiveStatus === "complete" ? "archived" : video.archiveStatus;
-  const archivePercentage = formatArchivePercentage(
-    video.archivedComments,
-    video.statistics?.commentCount,
-  );
-  const statusLabel = archivePercentage
-    ? `${archivePercentage} archived`
-    : status;
+  const showStatus = Boolean(status && !["archived", "partial"].includes(status));
   card.innerHTML = `
     <a class="card-link" href="?v=${encodeURIComponent(video.id)}">
       <div class="thumbnail-wrap">
         <img class="thumbnail" src="${escapeAttribute(assetUrl(video.thumbnail) ?? fallbackThumbnail(video.id))}" alt="" loading="lazy">
         ${video.duration ? `<span class="duration">${formatDuration(video.duration)}</span>` : ""}
-        ${status !== "archived" || archivePercentage ? `<span class="status-pill">${escapeHtml(statusLabel)}</span>` : ""}
+        ${showStatus ? `<span class="status-pill">${escapeHtml(status)}</span>` : ""}
       </div>
       <div class="card-copy">
         <h3>${escapeHtml(video.title)}</h3>
